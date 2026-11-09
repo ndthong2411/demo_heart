@@ -11,20 +11,28 @@ from slides import SLIDES  # noqa: E402
 inject_css()
 
 # Phím ← → (hoặc PageUp / PageDown) để chuyển trang chiếu.
+# Trên Streamlit Cloud app nằm trong một khung của trang bọc ngoài, nên khi trang bọc giữ focus thì phím không tới
+# document của app: gắn thêm bộ nghe vào mọi khung cha cùng origin, còn nút luôn tìm trong document của app.
 KEYS = """<!doctype html><html><body><script>
-const doc = window.parent.document;
-if (!doc._seqcvdKeys) {
-  doc._seqcvdKeys = true;
-  doc.addEventListener('keydown', (e) => {
-    const tag = (e.target.tagName || '').toLowerCase();
-    if (['input', 'textarea', 'select'].includes(tag)) return;
-    let label = null;
-    if (e.key === 'ArrowRight' || e.key === 'PageDown') label = 'Tiếp →';
-    if (e.key === 'ArrowLeft' || e.key === 'PageUp') label = '← Trước';
-    if (!label) return;
-    const btn = Array.from(doc.querySelectorAll('button')).find(b => b.innerText.trim() === label);
-    if (btn) { e.preventDefault(); btn.click(); }
-  });
+const app = window.parent.document;
+function onKey(e) {
+  const tag = (e.target.tagName || '').toLowerCase();
+  if (['input', 'textarea', 'select'].includes(tag) || e.target.isContentEditable) return;
+  let label = null;
+  if (e.key === 'ArrowRight' || e.key === 'PageDown') label = 'Tiếp →';
+  if (e.key === 'ArrowLeft' || e.key === 'PageUp') label = '← Trước';
+  if (!label) return;
+  const btn = Array.from(app.querySelectorAll('button')).find(b => b.innerText.trim() === label);
+  if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
+}
+let w = window.parent;
+while (true) {
+  try {
+    const d = w.document;
+    if (!d._seqcvdKeys) { d._seqcvdKeys = true; d.addEventListener('keydown', onKey); }
+  } catch (err) { break; }
+  if (w === w.parent) break;
+  w = w.parent;
 }
 </script></body></html>"""
 
