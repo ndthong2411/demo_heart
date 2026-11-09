@@ -8,6 +8,28 @@ import streamlit as st
 
 DATA = Path(__file__).resolve().parent / "data"
 
+
+# ---------------------------------------------------------------- ngôn ngữ (theo phiên, mặc định tiếng Việt)
+def lang():
+    return st.session_state.get("lang", "vi")
+
+
+def tr(vi, en):
+    return en if lang() == "en" else vi
+
+
+def lang_toggle(container):
+    """Nút Tiếng Việt / English. Key widget riêng; giá trị thật nằm ở st.session_state.lang (không bị xoá khi đổi trang)."""
+    def pick():
+        v = st.session_state.get("lang_pick")
+        if v:
+            st.session_state.lang = v
+            st.query_params["lang"] = v
+    st.session_state.lang_pick = lang()
+    container.segmented_control("Ngôn ngữ / Language", ["vi", "en"], key="lang_pick", on_change=pick,
+                                format_func={"vi": "Tiếng Việt", "en": "English"}.get, label_visibility="collapsed")
+
+
 # ---------------------------------------------------------------- tên và nhóm
 OUR = {"T1": "final system", "T2": "hybrid_seqlab_t2allfix", "T3": "hybrid_seqlab_t3mix12"}
 NEURAL = {"T1": "SeqLab network (cond)", "T2": "seqlab_t2allfix", "T3": "seqlab_t3mix12"}
@@ -23,6 +45,13 @@ NAMES = {
     "SeqLab network (cond)": "Mạng RAD có SeqLab", "direct ensemble": "Ghép trực tiếp",
     "FuseMoE direct": "FuseMoE",
 }
+NAMES_EN = {
+    "hybrid_seqlab_t2allfix": "SeqLab + HGB (final system)", "seqlab_t2allfix": "SeqLab (21 networks)",
+    "hybrid_seqlab_t3mix12": "SeqLab + HGB (final system)", "seqlab_t3mix12": "SeqLab (12 networks)",
+    "lr": "Logistic regression", "prior": "Frequency prior",
+    "final system": "HGB RAD-C + SeqLab network (final system)", "RAD system (published)": "Published RAD system",
+    "SeqLab network (cond)": "RAD network with SeqLab", "direct ensemble": "Direct ensemble",
+}
 PUBLISHED_SEQ = {"retain_e60", "gru_e60", "grud_e60", "seqlab_codes_e60", "seqlab_pt_e60", "seqlab_pt_strats"}
 TREES = {"hgb", "lgbm", "xgb", "cat"}
 SIMPLE = {"lr", "prior"}
@@ -35,6 +64,16 @@ GROUP_COLOR = {
     "Mô hình tabular khác": "#6250d6",
     "Mốc đơn giản": "#a3a29c",
 }
+GROUP_EN = {
+    "Hệ cuối": "Final system", "SeqLab": "SeqLab", "Mô hình cây": "Tree models",
+    "Mô hình chuỗi EHR đã công bố": "Published EHR sequence models", "Mô hình tabular khác": "Other tabular models",
+    "Mốc đơn giản": "Simple baselines",
+}
+
+
+def gname(g):
+    """Tên nhóm để hiển thị (khoá nhóm luôn là tiếng Việt, dùng cho màu)."""
+    return GROUP_EN.get(g, g) if lang() == "en" else g
 
 
 def wrap(text, width=11):
@@ -50,6 +89,10 @@ def wrap(text, width=11):
 
 
 def name(key):
+    if lang() == "en":
+        if key in NAMES_EN or key in NAMES:
+            return NAMES_EN.get(key, NAMES.get(key))
+        return key.replace(" direct", " (direct)").replace(" RAD-C", " (RAD-C)")
     if key in NAMES:
         return NAMES[key]
     return key.replace(" direct", " (trực tiếp)").replace(" RAD-C", " (RAD-C)")
@@ -75,7 +118,16 @@ CODES = {
     "I10": "Tăng huyết áp", "I50": "Suy tim", "I21": "Nhồi máu cơ tim cấp", "I25": "Bệnh tim thiếu máu mạn",
     "I20": "Đau thắt ngực", "I48": "Rung nhĩ", "I46": "Ngừng tim",
 }
+CODES_EN = {
+    "I10": "Hypertension", "I50": "Heart failure", "I21": "Acute myocardial infarction",
+    "I25": "Chronic ischaemic heart disease", "I20": "Angina pectoris", "I48": "Atrial fibrillation",
+    "I46": "Cardiac arrest",
+}
 EVAL_CODES = ["I10", "I50", "I21", "I25", "I20"]
+
+
+def code_name(c):
+    return (CODES_EN if lang() == "en" else CODES)[c]
 
 METRICS = ["AUPRC", "AUROC", "Accuracy", "Balanced acc.", "Recall", "Specificity", "Precision", "NPV", "F1", "MCC",
            "Brier", "Sens@Spec90"]
@@ -98,7 +150,36 @@ METRIC_INFO = {
     "Brier": ("Brier", "Sai số bình phương giữa xác suất dự báo và kết quả 0/1. Càng thấp càng tốt."),
     "Sens@Spec90": ("Recall khi Specificity = 90%", "Đặt ngưỡng sao cho 90% ca âm không bị báo động, rồi xem bắt được bao nhiêu ca dương."),
 }
+METRIC_INFO_EN = {
+    "AUPRC": ("AP / AUPRC — primary metric",
+              "Rank records by score from high to low: are the cases with a new code near the top of the list? Suited "
+              "to tasks with rare positives. Random guessing scores exactly the positive rate (about 0.05)."),
+    "AUROC": ("AUROC", "Pick one case with a new code and one without at random: how often does the model score the "
+              "positive case higher. 0.5 is random guessing."),
+    "Accuracy": ("Accuracy", "Share of all records predicted correctly. Since 95% of records have no new code, "
+                 "predicting 'no' for everyone already scores about 0.92–0.95, so this metric barely separates models."),
+    "Balanced acc.": ("Balanced accuracy", "Mean of Recall and Specificity, weighting the yes and no groups equally."),
+    "Recall": ("Recall (sensitivity)", "Of the cases that truly get a new code, how many the model catches."),
+    "Specificity": ("Specificity", "Of the cases without a new code, how many the model leaves alone."),
+    "Precision": ("Precision (PPV)", "Of the flagged cases, how many truly get a new code."),
+    "NPV": ("NPV", "Of the cases not flagged, how many truly get no new code."),
+    "F1": ("F1", "Harmonic mean of Precision and Recall."),
+    "MCC": ("MCC", "Correlation between predictions and outcomes, using all four cells of the confusion matrix. "
+            "From −1 to 1; 0 is random guessing."),
+    "Brier": ("Brier", "Squared error between the predicted probability and the 0/1 outcome. Lower is better."),
+    "Sens@Spec90": ("Recall at 90% specificity", "Set the threshold so that 90% of negatives are not flagged, then "
+                    "see how many positives are caught."),
+}
 EVALS = {"cv": "CV 5 phần theo bệnh nhân", "future": "Các năm sau (2021 → 2024–25)"}
+EVALS_EN = {"cv": "Patient-level 5-fold CV", "future": "Future years (2021 → 2024–25)"}
+
+
+def minfo(m):
+    return (METRIC_INFO_EN if lang() == "en" else METRIC_INFO)[m]
+
+
+def evname(e):
+    return (EVALS_EN if lang() == "en" else EVALS)[e]
 
 
 # ---------------------------------------------------------------- dữ liệu
@@ -221,8 +302,8 @@ def card(title, body, cls="", tag=None):
     html(f'<div class="card {cls}">{t}<h4>{title}</h4>{body}</div>')
 
 
-def why(body, head="Vì sao làm vậy"):
-    html(f'<div class="why"><b class="h">{head}</b>{body}</div>')
+def why(body, head=None):
+    html(f'<div class="why"><b class="h">{head or tr("Vì sao làm vậy", "Why this choice")}</b>{body}</div>')
 
 
 def flow(steps, highlight=()):
@@ -242,20 +323,21 @@ def fig_layout(fig, height=360, **kw):
         height=height, margin=dict(l=10, r=20, t=30, b=10), plot_bgcolor="white", paper_bgcolor="white",
         font=dict(family="Be Vietnam Pro, sans-serif", size=13, color="#2b2f36"),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0, title=None),
-        hoverlabel=dict(font_family="Be Vietnam Pro, sans-serif"), separators=",.", **kw)
+        hoverlabel=dict(font_family="Be Vietnam Pro, sans-serif"), separators=tr(",.", ".,"), **kw)
     fig.update_xaxes(gridcolor="#eef0f3", zeroline=False, linecolor="#d5d8de")
     fig.update_yaxes(gridcolor="#eef0f3", zeroline=False, linecolor="#d5d8de")
     return fig
 
 
 def fmt(x, nd=3, sign=False):
-    """Số thập phân kiểu Việt Nam: 0,159."""
-    return (f"{x:+.{nd}f}" if sign else f"{x:.{nd}f}").replace(".", ",")
+    """Số thập phân: 0,159 (tiếng Việt) / 0.159 (English)."""
+    s = f"{x:+.{nd}f}" if sign else f"{x:.{nd}f}"
+    return s if lang() == "en" else s.replace(".", ",")
 
 
 def vn(n):
-    """Số nguyên kiểu Việt Nam: 12.514."""
-    return f"{n:,}".replace(",", ".")
+    """Số nguyên: 12.514 (tiếng Việt) / 12,514 (English)."""
+    return f"{n:,}" if lang() == "en" else f"{n:,}".replace(",", ".")
 
 
 def ranking_bar(task, ev, metric="AUPRC", tau=None, height=430):
@@ -267,7 +349,7 @@ def ranking_bar(task, ev, metric="AUPRC", tau=None, height=430):
     fig = go.Figure(go.Bar(
         x=vals, y=[name(k) for k in keys], orientation="h", marker=dict(color=cols, cornerradius=4),
         text=[fmt(v) for v in vals], textposition="outside", cliponaxis=False,
-        customdata=[group(k, task) for k in keys],
+        customdata=[gname(group(k, task)) for k in keys],
         hovertemplate="<b>%{y}</b><br>%{customdata}<br>" + metric + ": %{x:.4f}<extra></extra>"))
     lo = min(vals)
     fig.update_xaxes(range=[max(0, lo * 0.8) if metric not in ("MCC",) else min(0, lo * 1.2), max(vals) * 1.12],
@@ -282,4 +364,4 @@ def group_legend(task, keys):
         if g not in seen:
             seen.append(g)
     html("".join(f'<span class="pill"><span style="display:inline-block;width:10px;height:10px;border-radius:3px;'
-                 f'background:{GROUP_COLOR[g]};margin-right:6px"></span>{g}</span>' for g in seen))
+                 f'background:{GROUP_COLOR[g]};margin-right:6px"></span>{gname(g)}</span>' for g in seen))

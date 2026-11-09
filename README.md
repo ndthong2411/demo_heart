@@ -25,3 +25,5 @@ Sửa ở bản gốc trong `phd_heart`, chép các file thay đổi sang đây,
 - Ảnh kiến trúc được nhúng thẳng vào trang (base64), file tải nằm ở `static/` (`enableStaticServing = true`).
   Không dùng `st.image` / `st.download_button` vì tệp tạm `/media/...` của chúng có lúc không tải được trên Streamlit Cloud.
 - Phím ← → được gắn lại mỗi lần vẽ trang, nghe cả ở trang bọc ngoài của Streamlit Cloud.
+- Song ngữ: nút Tiếng Việt / English trên thanh chọn trang và trang Kết quả; `?lang=en` mở thẳng bản Anh.
+  Trang chiếu tiếng Anh ở `slides_en.py` (cùng thứ tự với `slides.py`); chuỗi dùng chung qua `tr()` trong `common.py`.
