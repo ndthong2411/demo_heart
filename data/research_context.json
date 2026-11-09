@@ -1,0 +1,1319 @@
+{
+  "as_of": "01/11/2026",
+  "raw": {
+    "sources": [
+      {
+        "name": "Tệp xét nghiệm tổng hợp",
+        "files": 1,
+        "rows": 579434,
+        "patients": 2510,
+        "visits": 9764,
+        "columns": [
+          "cannang",
+          "chandoan",
+          "chieucao",
+          "ddmmyyyy",
+          "huyetap",
+          "id",
+          "id_bv_so",
+          "id_bv_ten",
+          "id_ten",
+          "idxetnghiem",
+          "ketqua",
+          "loaibenhan",
+          "ma_ten",
+          "mabn",
+          "mach",
+          "maicd",
+          "maql",
+          "mavaovien",
+          "maxn",
+          "nhietdo",
+          "phai",
+          "ten_bv_so",
+          "ten_bv_ten",
+          "tenxn",
+          "tuoi"
+        ],
+        "storage_code": "B"
+      },
+      {
+        "name": "Các tệp xét nghiệm theo người bệnh",
+        "files": 4374,
+        "rows": 508406,
+        "patients": 3804,
+        "visits": 6772,
+        "columns": [
+          "cannang",
+          "chandoan",
+          "chieucao",
+          "ddmmyyyy",
+          "huyetap",
+          "id_bv_so",
+          "id_bv_ten",
+          "id_ten",
+          "idxetnghiem",
+          "ketqua",
+          "loaibenhan",
+          "ma_ten",
+          "mabn",
+          "mach",
+          "maicd",
+          "maql",
+          "mavaovien",
+          "maxn",
+          "nhietdo",
+          "phai",
+          "ten_bv_so",
+          "ten_bv_ten",
+          "tenxn",
+          "tuoi"
+        ],
+        "storage_code": "C"
+      }
+    ],
+    "rows_before_dedup": 1087840,
+    "duplicate_rows_removed": 288177,
+    "rows_after_dedup": 799663,
+    "valid_lab_rows": 799663,
+    "invalid_time_or_key": 0,
+    "union_patients": 4311,
+    "union_lab_visits": 13421,
+    "first_date": "01/01/2020",
+    "last_date": "30/12/2025"
+  },
+  "corpus": {
+    "events": 920076,
+    "patients": 4323,
+    "visits": 17544,
+    "first_date": "11/12/2019",
+    "last_date": "30/12/2025",
+    "by_kind": [
+      {
+        "kind": 0,
+        "name": "Kết quả xét nghiệm",
+        "events": 799663,
+        "patients": 4311,
+        "keys": 353,
+        "numeric": 787167
+      },
+      {
+        "kind": 1,
+        "name": "Sinh hiệu",
+        "events": 80526,
+        "patients": 4311,
+        "keys": 6,
+        "numeric": 28806
+      },
+      {
+        "kind": 2,
+        "name": "Mã chẩn đoán",
+        "events": 22343,
+        "patients": 4323,
+        "keys": 440,
+        "numeric": 0
+      },
+      {
+        "kind": 3,
+        "name": "Lượt khám",
+        "events": 17544,
+        "patients": 4323,
+        "keys": 4,
+        "numeric": 0
+      }
+    ],
+    "lab_years": {
+      "2020": 131778,
+      "2021": 112110,
+      "2022": 128339,
+      "2023": 154045,
+      "2024": 135541,
+      "2025": 137850
+    }
+  },
+  "tasks": {
+    "T2": {
+      "samples": 12514,
+      "patients": 2487,
+      "features": 451,
+      "first_date": "01/01/2020",
+      "last_date": "18/12/2025",
+      "new_by_code": {
+        "I10": 634,
+        "I50": 634,
+        "I21": 517,
+        "I48": 55,
+        "I25": 294,
+        "I20": 875,
+        "I46": 43
+      },
+      "splits": [
+        {
+          "split": "1",
+          "train": {
+            "samples": 7481,
+            "patients": 1456,
+            "start": "01/01/2020",
+            "end": "18/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2387,
+            "patients": 483,
+            "start": "02/01/2020",
+            "end": "15/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2646,
+            "patients": 548,
+            "start": "01/01/2020",
+            "end": "13/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "2",
+          "train": {
+            "samples": 7627,
+            "patients": 1534,
+            "start": "01/01/2020",
+            "end": "18/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2500,
+            "patients": 470,
+            "start": "01/01/2020",
+            "end": "17/12/2025",
+            "last_label_date": "22/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2387,
+            "patients": 483,
+            "start": "02/01/2020",
+            "end": "15/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "3",
+          "train": {
+            "samples": 7641,
+            "patients": 1516,
+            "start": "01/01/2020",
+            "end": "18/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2373,
+            "patients": 501,
+            "start": "02/01/2020",
+            "end": "04/12/2025",
+            "last_label_date": "17/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2500,
+            "patients": 470,
+            "start": "01/01/2020",
+            "end": "17/12/2025",
+            "last_label_date": "22/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "4",
+          "train": {
+            "samples": 7533,
+            "patients": 1501,
+            "start": "01/01/2020",
+            "end": "17/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2608,
+            "patients": 485,
+            "start": "02/01/2020",
+            "end": "18/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2373,
+            "patients": 501,
+            "start": "02/01/2020",
+            "end": "04/12/2025",
+            "last_label_date": "17/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "5",
+          "train": {
+            "samples": 7260,
+            "patients": 1454,
+            "start": "01/01/2020",
+            "end": "17/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2646,
+            "patients": 548,
+            "start": "01/01/2020",
+            "end": "13/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2608,
+            "patients": 485,
+            "start": "02/01/2020",
+            "end": "18/12/2025",
+            "last_label_date": "23/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "roll2021",
+          "train": {
+            "samples": 1764,
+            "patients": 552,
+            "start": "01/01/2020",
+            "end": "30/12/2020",
+            "last_label_date": "31/12/2020",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 273,
+            "patients": 98,
+            "start": "02/01/2020",
+            "end": "16/12/2020",
+            "last_label_date": "30/12/2020",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2158,
+            "patients": 829,
+            "start": "01/01/2021",
+            "end": "31/12/2021",
+            "last_label_date": "24/08/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 316,
+          "overlap_validation_test_patients": 46
+        },
+        {
+          "split": "roll2022",
+          "train": {
+            "samples": 3411,
+            "patients": 867,
+            "start": "02/01/2020",
+            "end": "27/12/2021",
+            "last_label_date": "31/12/2021",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 690,
+            "patients": 154,
+            "start": "01/01/2020",
+            "end": "23/12/2021",
+            "last_label_date": "31/12/2021",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2639,
+            "patients": 857,
+            "start": "01/01/2022",
+            "end": "30/12/2022",
+            "last_label_date": "31/07/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 369,
+          "overlap_validation_test_patients": 68
+        },
+        {
+          "split": "roll2023",
+          "train": {
+            "samples": 5589,
+            "patients": 1195,
+            "start": "01/01/2020",
+            "end": "23/12/2022",
+            "last_label_date": "31/12/2022",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 1200,
+            "patients": 212,
+            "start": "03/01/2020",
+            "end": "12/12/2022",
+            "last_label_date": "30/12/2022",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2317,
+            "patients": 786,
+            "start": "01/01/2023",
+            "end": "31/12/2023",
+            "last_label_date": "15/11/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 360,
+          "overlap_validation_test_patients": 55
+        },
+        {
+          "split": "roll2024-25",
+          "train": {
+            "samples": 7999,
+            "patients": 1506,
+            "start": "01/01/2020",
+            "end": "22/12/2023",
+            "last_label_date": "30/12/2023",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 1320,
+            "patients": 266,
+            "start": "03/01/2020",
+            "end": "22/12/2023",
+            "last_label_date": "29/12/2023",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2650,
+            "patients": 1004,
+            "start": "01/01/2024",
+            "end": "18/12/2025",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 285,
+          "overlap_validation_test_patients": 58
+        }
+      ],
+      "source": "seqcvd/v5/out/cache/t2.pkl",
+      "unused_splits": []
+    },
+    "T3": {
+      "samples": 10975,
+      "patients": 1977,
+      "features": 451,
+      "first_date": "01/01/2020",
+      "last_date": "25/12/2024",
+      "new_by_code": {
+        "I10": 1316,
+        "I50": 1924,
+        "I21": 1057,
+        "I48": 209,
+        "I25": 746,
+        "I20": 1661,
+        "I46": 115
+      },
+      "splits": [
+        {
+          "split": "1",
+          "train": {
+            "samples": 6584,
+            "patients": 1152,
+            "start": "01/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2086,
+            "patients": 398,
+            "start": "03/01/2020",
+            "end": "19/12/2024",
+            "last_label_date": "19/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2305,
+            "patients": 427,
+            "start": "01/01/2020",
+            "end": "24/12/2024",
+            "last_label_date": "24/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "2",
+          "train": {
+            "samples": 6708,
+            "patients": 1213,
+            "start": "01/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2181,
+            "patients": 366,
+            "start": "01/01/2020",
+            "end": "21/12/2024",
+            "last_label_date": "21/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2086,
+            "patients": 398,
+            "start": "03/01/2020",
+            "end": "19/12/2024",
+            "last_label_date": "19/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "3",
+          "train": {
+            "samples": 6686,
+            "patients": 1212,
+            "start": "01/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2108,
+            "patients": 399,
+            "start": "02/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2181,
+            "patients": 366,
+            "start": "01/01/2020",
+            "end": "21/12/2024",
+            "last_label_date": "21/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "4",
+          "train": {
+            "samples": 6572,
+            "patients": 1191,
+            "start": "01/01/2020",
+            "end": "24/12/2024",
+            "last_label_date": "24/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2295,
+            "patients": 387,
+            "start": "02/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2108,
+            "patients": 399,
+            "start": "02/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "5",
+          "train": {
+            "samples": 6375,
+            "patients": 1163,
+            "start": "01/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 2305,
+            "patients": 427,
+            "start": "01/01/2020",
+            "end": "24/12/2024",
+            "last_label_date": "24/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2295,
+            "patients": 387,
+            "start": "02/01/2020",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "roll2022",
+          "train": {
+            "samples": 2263,
+            "patients": 642,
+            "start": "01/01/2020",
+            "end": "31/12/2020",
+            "last_label_date": "31/12/2021",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 396,
+            "patients": 114,
+            "start": "02/01/2020",
+            "end": "31/12/2020",
+            "last_label_date": "31/12/2021",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2568,
+            "patients": 783,
+            "start": "01/01/2022",
+            "end": "30/12/2022",
+            "last_label_date": "30/12/2023",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 290,
+          "overlap_validation_test_patients": 44
+        },
+        {
+          "split": "roll2023",
+          "train": {
+            "samples": 3992,
+            "patients": 891,
+            "start": "01/01/2020",
+            "end": "31/12/2021",
+            "last_label_date": "31/12/2022",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 675,
+            "patients": 158,
+            "start": "03/01/2020",
+            "end": "31/12/2021",
+            "last_label_date": "31/12/2022",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 2286,
+            "patients": 745,
+            "start": "01/01/2023",
+            "end": "31/12/2023",
+            "last_label_date": "30/12/2024",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 270,
+          "overlap_validation_test_patients": 55
+        },
+        {
+          "split": "roll2024-25",
+          "train": {
+            "samples": 6070,
+            "patients": 1184,
+            "start": "01/01/2020",
+            "end": "30/12/2022",
+            "last_label_date": "30/12/2023",
+            "last_label_date_basis": "next_start"
+          },
+          "validation": {
+            "samples": 1165,
+            "patients": 209,
+            "start": "01/01/2020",
+            "end": "30/12/2022",
+            "last_label_date": "30/12/2023",
+            "last_label_date_basis": "next_start"
+          },
+          "test": {
+            "samples": 1454,
+            "patients": 551,
+            "start": "01/01/2024",
+            "end": "25/12/2024",
+            "last_label_date": "25/12/2025",
+            "last_label_date_basis": "next_start"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 213,
+          "overlap_validation_test_patients": 35
+        }
+      ],
+      "source": "seqcvd/v4/out/cache/t3.pkl",
+      "unused_splits": [
+        "roll2021"
+      ]
+    },
+    "T1": {
+      "samples": 5299,
+      "patients": 2242,
+      "first_date": "30/12/2019",
+      "last_date": "15/03/2025",
+      "splits": [
+        {
+          "split": "1",
+          "train": {
+            "samples": 3248,
+            "patients": 1344,
+            "start": "30/12/2019",
+            "end": "11/03/2025"
+          },
+          "validation": {
+            "samples": 1020,
+            "patients": 449,
+            "start": "30/12/2019",
+            "end": "15/03/2025"
+          },
+          "test": {
+            "samples": 1031,
+            "patients": 449,
+            "start": "03/01/2020",
+            "end": "11/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "2",
+          "train": {
+            "samples": 3179,
+            "patients": 1345,
+            "start": "30/12/2019",
+            "end": "11/03/2025"
+          },
+          "validation": {
+            "samples": 1100,
+            "patients": 448,
+            "start": "31/12/2019",
+            "end": "11/03/2025"
+          },
+          "test": {
+            "samples": 1020,
+            "patients": 449,
+            "start": "30/12/2019",
+            "end": "15/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "3",
+          "train": {
+            "samples": 3126,
+            "patients": 1346,
+            "start": "30/12/2019",
+            "end": "15/03/2025"
+          },
+          "validation": {
+            "samples": 1073,
+            "patients": 448,
+            "start": "30/12/2019",
+            "end": "09/03/2025"
+          },
+          "test": {
+            "samples": 1100,
+            "patients": 448,
+            "start": "31/12/2019",
+            "end": "11/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "4",
+          "train": {
+            "samples": 3151,
+            "patients": 1346,
+            "start": "30/12/2019",
+            "end": "15/03/2025"
+          },
+          "validation": {
+            "samples": 1075,
+            "patients": 448,
+            "start": "03/01/2020",
+            "end": "04/03/2025"
+          },
+          "test": {
+            "samples": 1073,
+            "patients": 448,
+            "start": "30/12/2019",
+            "end": "09/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "5",
+          "train": {
+            "samples": 3193,
+            "patients": 1345,
+            "start": "30/12/2019",
+            "end": "15/03/2025"
+          },
+          "validation": {
+            "samples": 1031,
+            "patients": 449,
+            "start": "03/01/2020",
+            "end": "11/03/2025"
+          },
+          "test": {
+            "samples": 1075,
+            "patients": 448,
+            "start": "03/01/2020",
+            "end": "04/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 0,
+          "overlap_validation_test_patients": 0
+        },
+        {
+          "split": "roll2021",
+          "train": {
+            "samples": 1144,
+            "patients": 624,
+            "start": "30/12/2019",
+            "end": "31/12/2020"
+          },
+          "validation": {
+            "samples": 222,
+            "patients": 111,
+            "start": "02/01/2020",
+            "end": "31/12/2020"
+          },
+          "test": {
+            "samples": 947,
+            "patients": 587,
+            "start": "02/01/2021",
+            "end": "31/12/2021"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 174,
+          "overlap_validation_test_patients": 26
+        },
+        {
+          "split": "roll2022",
+          "train": {
+            "samples": 1980,
+            "patients": 953,
+            "start": "30/12/2019",
+            "end": "31/12/2021"
+          },
+          "validation": {
+            "samples": 333,
+            "patients": 169,
+            "start": "03/01/2020",
+            "end": "30/12/2021"
+          },
+          "test": {
+            "samples": 1111,
+            "patients": 650,
+            "start": "01/01/2022",
+            "end": "30/12/2022"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 219,
+          "overlap_validation_test_patients": 33
+        },
+        {
+          "split": "roll2023",
+          "train": {
+            "samples": 2895,
+            "patients": 1292,
+            "start": "30/12/2019",
+            "end": "30/12/2022"
+          },
+          "validation": {
+            "samples": 529,
+            "patients": 228,
+            "start": "02/01/2020",
+            "end": "30/12/2022"
+          },
+          "test": {
+            "samples": 1028,
+            "patients": 617,
+            "start": "02/01/2023",
+            "end": "30/12/2023"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 206,
+          "overlap_validation_test_patients": 41
+        },
+        {
+          "split": "roll2024-25",
+          "train": {
+            "samples": 3722,
+            "patients": 1606,
+            "start": "30/12/2019",
+            "end": "30/12/2023"
+          },
+          "validation": {
+            "samples": 730,
+            "patients": 284,
+            "start": "30/12/2019",
+            "end": "30/12/2023"
+          },
+          "test": {
+            "samples": 847,
+            "patients": 589,
+            "start": "01/01/2024",
+            "end": "15/03/2025"
+          },
+          "overlap_train_validation_patients": 0,
+          "overlap_train_test_patients": 206,
+          "overlap_validation_test_patients": 31
+        }
+      ],
+      "source": "rad_v3/out/cache/cohort/splits"
+    }
+  },
+  "multitask_fixed_splits": [
+    {
+      "task": "T2",
+      "split": "roll2021",
+      "train": {
+        "samples": 1750,
+        "patients": 551,
+        "start": "01/01/2020",
+        "end": "30/12/2020",
+        "last_label_date": "31/12/2020"
+      },
+      "validation": {
+        "samples": 287,
+        "patients": 99,
+        "start": "01/01/2020",
+        "end": "16/12/2020",
+        "last_label_date": "30/12/2020"
+      },
+      "test": {
+        "samples": 2158,
+        "patients": 829,
+        "start": "01/01/2021",
+        "end": "31/12/2021",
+        "last_label_date": "24/08/2025"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 315,
+      "overlap_validation_test_patients": 47
+    },
+    {
+      "task": "T3",
+      "split": "roll2021",
+      "train": {
+        "samples": 2,
+        "patients": 2,
+        "start": "01/01/2020",
+        "end": "01/01/2020",
+        "last_label_date": "31/12/2020"
+      },
+      "validation": {
+        "samples": 1,
+        "patients": 1,
+        "start": "01/01/2020",
+        "end": "01/01/2020",
+        "last_label_date": "31/12/2020"
+      },
+      "test": {
+        "samples": 2008,
+        "patients": 679,
+        "start": "01/01/2021",
+        "end": "31/12/2021",
+        "last_label_date": "31/12/2022"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 1,
+      "overlap_validation_test_patients": 1
+    },
+    {
+      "task": "T2",
+      "split": "roll2022",
+      "train": {
+        "samples": 3002,
+        "patients": 774,
+        "start": "02/01/2020",
+        "end": "27/12/2021",
+        "last_label_date": "31/12/2021"
+      },
+      "validation": {
+        "samples": 1099,
+        "patients": 247,
+        "start": "01/01/2020",
+        "end": "23/12/2021",
+        "last_label_date": "31/12/2021"
+      },
+      "test": {
+        "samples": 2639,
+        "patients": 857,
+        "start": "01/01/2022",
+        "end": "30/12/2022",
+        "last_label_date": "31/07/2025"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 334,
+      "overlap_validation_test_patients": 103
+    },
+    {
+      "task": "T3",
+      "split": "roll2022",
+      "train": {
+        "samples": 1904,
+        "patients": 548,
+        "start": "02/01/2020",
+        "end": "31/12/2020",
+        "last_label_date": "31/12/2021"
+      },
+      "validation": {
+        "samples": 755,
+        "patients": 208,
+        "start": "01/01/2020",
+        "end": "31/12/2020",
+        "last_label_date": "31/12/2021"
+      },
+      "test": {
+        "samples": 2568,
+        "patients": 783,
+        "start": "01/01/2022",
+        "end": "30/12/2022",
+        "last_label_date": "30/12/2023"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 245,
+      "overlap_validation_test_patients": 89
+    },
+    {
+      "task": "T2",
+      "split": "roll2023",
+      "train": {
+        "samples": 4862,
+        "patients": 1063,
+        "start": "01/01/2020",
+        "end": "23/12/2022",
+        "last_label_date": "31/12/2022"
+      },
+      "validation": {
+        "samples": 1927,
+        "patients": 344,
+        "start": "03/01/2020",
+        "end": "16/12/2022",
+        "last_label_date": "30/12/2022"
+      },
+      "test": {
+        "samples": 2317,
+        "patients": 786,
+        "start": "01/01/2023",
+        "end": "31/12/2023",
+        "last_label_date": "15/11/2025"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 311,
+      "overlap_validation_test_patients": 104
+    },
+    {
+      "task": "T3",
+      "split": "roll2023",
+      "train": {
+        "samples": 3271,
+        "patients": 752,
+        "start": "01/01/2020",
+        "end": "31/12/2021",
+        "last_label_date": "31/12/2022"
+      },
+      "validation": {
+        "samples": 1396,
+        "patients": 297,
+        "start": "03/01/2020",
+        "end": "31/12/2021",
+        "last_label_date": "31/12/2022"
+      },
+      "test": {
+        "samples": 2286,
+        "patients": 745,
+        "start": "01/01/2023",
+        "end": "31/12/2023",
+        "last_label_date": "30/12/2024"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 232,
+      "overlap_validation_test_patients": 93
+    },
+    {
+      "task": "T2",
+      "split": "roll2024-25",
+      "train": {
+        "samples": 6783,
+        "patients": 1324,
+        "start": "01/01/2020",
+        "end": "22/12/2023",
+        "last_label_date": "30/12/2023"
+      },
+      "validation": {
+        "samples": 2536,
+        "patients": 448,
+        "start": "01/01/2020",
+        "end": "22/12/2023",
+        "last_label_date": "29/12/2023"
+      },
+      "test": {
+        "samples": 2650,
+        "patients": 1004,
+        "start": "01/01/2024",
+        "end": "18/12/2025",
+        "last_label_date": "25/12/2025"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 253,
+      "overlap_validation_test_patients": 90
+    },
+    {
+      "task": "T3",
+      "split": "roll2024-25",
+      "train": {
+        "samples": 5246,
+        "patients": 1004,
+        "start": "01/01/2020",
+        "end": "30/12/2022",
+        "last_label_date": "30/12/2023"
+      },
+      "validation": {
+        "samples": 1989,
+        "patients": 389,
+        "start": "01/01/2020",
+        "end": "30/12/2022",
+        "last_label_date": "30/12/2023"
+      },
+      "test": {
+        "samples": 1454,
+        "patients": 551,
+        "start": "01/01/2024",
+        "end": "25/12/2024",
+        "last_label_date": "25/12/2025"
+      },
+      "overlap_train_validation_patients": 0,
+      "overlap_train_test_patients": 176,
+      "overlap_validation_test_patients": 72
+    }
+  ],
+  "pretraining": [
+    {
+      "split": "1",
+      "train_patients": 2596,
+      "train_anchors": 44953
+    },
+    {
+      "split": "2",
+      "train_patients": 2650,
+      "train_anchors": 47554
+    },
+    {
+      "split": "3",
+      "train_patients": 2607,
+      "train_anchors": 47431
+    },
+    {
+      "split": "4",
+      "train_patients": 2570,
+      "train_anchors": 46343
+    },
+    {
+      "split": "5",
+      "train_patients": 2546,
+      "train_anchors": 44314
+    },
+    {
+      "split": "roll2021",
+      "train_patients": 3631,
+      "train_anchors": 8806
+    },
+    {
+      "split": "roll2022",
+      "train_patients": 3631,
+      "train_anchors": 19590
+    },
+    {
+      "split": "roll2023",
+      "train_patients": 3631,
+      "train_anchors": 31407
+    },
+    {
+      "split": "roll2024-25",
+      "train_patients": 3631,
+      "train_anchors": 43251
+    }
+  ],
+  "sources": [
+    {
+      "file": "publication/seqcvd/v5/out/cache/events.parquet",
+      "bytes": 4365790,
+      "sha256": "fa87958c8ac805d06d62de0efd0af4edfe24f9031989f529b9a28f907773963c"
+    },
+    {
+      "file": "publication/seqcvd/v5/out/cache/visits.parquet",
+      "bytes": 662819,
+      "sha256": "0b00207983aac8bcbe08816ea8f75a2b5070d8b222c162c9be447611874cb9c3"
+    },
+    {
+      "file": "publication/seqcvd/v5/out/cache/t2.pkl",
+      "bytes": 52335116,
+      "sha256": "1aa1e87ec3eee4da71fb39ebde8c99bd4c880a9dbce558c9ff931eec55383044"
+    },
+    {
+      "file": "publication/seqcvd/v4/out/cache/t3.pkl",
+      "bytes": 44404585,
+      "sha256": "318fd4c1ffad0aaa4008b2a203f8bfa04a98af1019763d9e04313ff6926b94cd"
+    },
+    {
+      "file": "publication/seqcvd/v5/src/events.py",
+      "bytes": 4976,
+      "sha256": "8d6acbd4574c6a3d3bceb0f4482d491d1147da452e40e6115b53980201c09981"
+    },
+    {
+      "file": "publication/seqcvd/v5/src/t2_build.py",
+      "bytes": 9604,
+      "sha256": "cee5344d1578d17907df9467823b3d8e1f56ac94699e0ab2d2b2ae462badfc40"
+    },
+    {
+      "file": "publication/seqcvd/v5/src/t23_multitask.py",
+      "bytes": 8963,
+      "sha256": "61887352b86d1b68eacbf392e9b8c338f7e3d10334454125c04dd6149f27d7e3"
+    },
+    {
+      "file": "publication/seqcvd/v5/src/seqlab.py",
+      "bytes": 13293,
+      "sha256": "289a0334c21654b8f98a59449deeb3e630ca1e53636a7b8d0bfdcabb71ba9de6"
+    },
+    {
+      "file": "publication/seqcvd/v5/src/pretrain.py",
+      "bytes": 7278,
+      "sha256": "23fe28c9eb7c1c2816f5864476ee301884bfa9def866d7dda7bee9b54c371213"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold1/stays_test.csv",
+      "bytes": 161409,
+      "sha256": "399a6278fbe580b628aaa781a0dfc50685cbe18632822ecb977271cac29a0cca"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold1/stays_train.csv",
+      "bytes": 494697,
+      "sha256": "2b2c001b98051db52e82cec423f22ee964858cc4dfdfd70dc04d8e812c57dddc"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold1/stays_val.csv",
+      "bytes": 158899,
+      "sha256": "84aadda64c94f2500fadb516d6f755407f5745f329c6f318aa503cc6c284d6c9"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold2/stays_test.csv",
+      "bytes": 158899,
+      "sha256": "84aadda64c94f2500fadb516d6f755407f5745f329c6f318aa503cc6c284d6c9"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold2/stays_train.csv",
+      "bytes": 489824,
+      "sha256": "4850f14eeb9ab24ad603ded643aece2170363dcf9a8ef7816d797253476dcf59"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold2/stays_val.csv",
+      "bytes": 166282,
+      "sha256": "d2b2a909b0d8fd5329c7fcee50395683fdf6ab20f022d2a616acfca95d201e78"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold3/stays_test.csv",
+      "bytes": 166282,
+      "sha256": "d2b2a909b0d8fd5329c7fcee50395683fdf6ab20f022d2a616acfca95d201e78"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold3/stays_train.csv",
+      "bytes": 485423,
+      "sha256": "1a06cc2d48fb7b23fcfac5c2e3731b31b767ccf41bfda62e509cb38115bc6c8f"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold3/stays_val.csv",
+      "bytes": 163300,
+      "sha256": "203a05e571c9f01ee803a38cc3f1ae44d9f103e2604fae0f52424471a693eb34"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold4/stays_test.csv",
+      "bytes": 163300,
+      "sha256": "203a05e571c9f01ee803a38cc3f1ae44d9f103e2604fae0f52424471a693eb34"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold4/stays_train.csv",
+      "bytes": 486286,
+      "sha256": "93065467c32822e6fe0193ee1155a041906b4b9d23aa1591f38b66682077816a"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold4/stays_val.csv",
+      "bytes": 165419,
+      "sha256": "0a6814377946a8bc221e18ae2d949f728e9aaf31fd7426f13379adc2dea36639"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold5/stays_test.csv",
+      "bytes": 165419,
+      "sha256": "0a6814377946a8bc221e18ae2d949f728e9aaf31fd7426f13379adc2dea36639"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold5/stays_train.csv",
+      "bytes": 488177,
+      "sha256": "5ad705841f19cdc6bb6e92c2711c86d3f696a562351941641dcd277554a72977"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/cohort/splits/fold5/stays_val.csv",
+      "bytes": 161409,
+      "sha256": "399a6278fbe580b628aaa781a0dfc50685cbe18632822ecb977271cac29a0cca"
+    },
+    {
+      "file": "publication/rad_v3/out/cache/temporal_split.json",
+      "bytes": 128113,
+      "sha256": "c8ce6161792f2c6ad7faeb2d3ede437bfdbe7fe1e5326302c3bad75da291f753"
+    }
+  ],
+  "provenance": {
+    "hospital": "Bệnh viện Thủ Đức",
+    "number_of_hospitals": 1,
+    "storage_sets": 2,
+    "note": "B/C là ký hiệu hai bộ tệp trong cùng bệnh viện, không phải hai nguồn độc lập."
+  }
+}

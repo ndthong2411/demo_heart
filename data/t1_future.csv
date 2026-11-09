@@ -1,0 +1,1261 @@
+eval,tau,kind,a,b,metric,value,lo,hi,strongest
+rolling,2.0,value,final system,,AUROC,0.9045955617191528,,,
+rolling,2.0,value,final system,,AUPRC,0.5112106733466308,,,
+rolling,2.0,value,final system,,Brier,0.03665360513294761,,,
+rolling,2.0,value,final system,,Sens@Spec90,0.7243509477086693,,,
+rolling,2.0,value,final system,,Accuracy,0.939257557688654,,,
+rolling,2.0,value,final system,,Balanced acc.,0.7107648669422088,,,
+rolling,2.0,value,final system,,Sensitivity,0.4538037034914427,,,
+rolling,2.0,value,final system,,Specificity,0.9677260303929743,,,
+rolling,2.0,value,final system,,PPV,0.4560477120596026,,,
+rolling,2.0,value,final system,,NPV,0.9629394435230642,,,
+rolling,2.0,value,final system,,F1,0.4280000700253324,,,
+rolling,2.0,value,final system,,MCC,0.40781891234203427,,,
+rolling,2.0,value,RAD system (published),,AUROC,0.9002069169201301,,,
+rolling,2.0,value,RAD system (published),,AUPRC,0.5002969565004932,,,
+rolling,2.0,value,RAD system (published),,Brier,0.037608514225252944,,,
+rolling,2.0,value,RAD system (published),,Sens@Spec90,0.7141576695707317,,,
+rolling,2.0,value,RAD system (published),,Accuracy,0.9378370844857864,,,
+rolling,2.0,value,RAD system (published),,Balanced acc.,0.7065047975454368,,,
+rolling,2.0,value,RAD system (published),,Sensitivity,0.44611121038099116,,,
+rolling,2.0,value,RAD system (published),,Specificity,0.9668983847098823,,,
+rolling,2.0,value,RAD system (published),,PPV,0.4540531318318616,,,
+rolling,2.0,value,RAD system (published),,NPV,0.9621208972115276,,,
+rolling,2.0,value,RAD system (published),,F1,0.4230123453972668,,,
+rolling,2.0,value,RAD system (published),,MCC,0.40207754009946733,,,
+rolling,2.0,value,SeqLab network (cond),,AUROC,0.9079219910118772,,,
+rolling,2.0,value,SeqLab network (cond),,AUPRC,0.4958005269858318,,,
+rolling,2.0,value,SeqLab network (cond),,Brier,0.03748359763265931,,,
+rolling,2.0,value,SeqLab network (cond),,Sens@Spec90,0.720731333482287,,,
+rolling,2.0,value,SeqLab network (cond),,Accuracy,0.9374186198289166,,,
+rolling,2.0,value,SeqLab network (cond),,Balanced acc.,0.7041114618713024,,,
+rolling,2.0,value,SeqLab network (cond),,Sensitivity,0.44156597044205653,,,
+rolling,2.0,value,SeqLab network (cond),,Specificity,0.9666569533005483,,,
+rolling,2.0,value,SeqLab network (cond),,PPV,0.4315199133379147,,,
+rolling,2.0,value,SeqLab network (cond),,NPV,0.9618759457872645,,,
+rolling,2.0,value,SeqLab network (cond),,F1,0.4107071138896912,,,
+rolling,2.0,value,SeqLab network (cond),,MCC,0.38890759965988214,,,
+rolling,2.0,value,direct ensemble,,AUROC,0.8911056234251186,,,
+rolling,2.0,value,direct ensemble,,AUPRC,0.48575352081042433,,,
+rolling,2.0,value,direct ensemble,,Brier,0.03914886296377338,,,
+rolling,2.0,value,direct ensemble,,Sens@Spec90,0.693114064751824,,,
+rolling,2.0,value,direct ensemble,,Accuracy,0.936395360176828,,,
+rolling,2.0,value,direct ensemble,,Balanced acc.,0.703028063094397,,,
+rolling,2.0,value,direct ensemble,,Sensitivity,0.440037179037805,,,
+rolling,2.0,value,direct ensemble,,Specificity,0.966018947150989,,,
+rolling,2.0,value,direct ensemble,,PPV,0.4406673909376018,,,
+rolling,2.0,value,direct ensemble,,NPV,0.9612604936369086,,,
+rolling,2.0,value,direct ensemble,,F1,0.4132642820159899,,,
+rolling,2.0,value,direct ensemble,,MCC,0.39144697654032123,,,
+rolling,2.0,value,HGB direct,,AUROC,0.8376524949305708,,,
+rolling,2.0,value,HGB direct,,AUPRC,0.432420228306008,,,
+rolling,2.0,value,HGB direct,,Brier,0.041305639800959915,,,
+rolling,2.0,value,HGB direct,,Sens@Spec90,0.6001533145796627,,,
+rolling,2.0,value,HGB direct,,Accuracy,0.9339555619647096,,,
+rolling,2.0,value,HGB direct,,Balanced acc.,0.6839920140514678,,,
+rolling,2.0,value,HGB direct,,Sensitivity,0.40331012458237936,,,
+rolling,2.0,value,HGB direct,,Specificity,0.9646739035205563,,,
+rolling,2.0,value,HGB direct,,PPV,0.40135734592155303,,,
+rolling,2.0,value,HGB direct,,NPV,0.9599200236919098,,,
+rolling,2.0,value,HGB direct,,F1,0.37946189301787936,,,
+rolling,2.0,value,HGB direct,,MCC,0.3542591542764419,,,
+rolling,2.0,value,LightGBM direct,,AUROC,0.8569863628613691,,,
+rolling,2.0,value,LightGBM direct,,AUPRC,0.4400500822472964,,,
+rolling,2.0,value,LightGBM direct,,Brier,0.04058557410122275,,,
+rolling,2.0,value,LightGBM direct,,Sens@Spec90,0.635619592984125,,,
+rolling,2.0,value,LightGBM direct,,Accuracy,0.9344347455186799,,,
+rolling,2.0,value,LightGBM direct,,Balanced acc.,0.6864049889804181,,,
+rolling,2.0,value,LightGBM direct,,Sensitivity,0.4078572405041398,,,
+rolling,2.0,value,LightGBM direct,,Specificity,0.9649527374566963,,,
+rolling,2.0,value,LightGBM direct,,PPV,0.4026575915680353,,,
+rolling,2.0,value,LightGBM direct,,NPV,0.9601724180412692,,,
+rolling,2.0,value,LightGBM direct,,F1,0.3821511204591321,,,
+rolling,2.0,value,LightGBM direct,,MCC,0.35732427678475637,,,
+rolling,2.0,value,XGBoost direct,,AUROC,0.8488628478478834,,,
+rolling,2.0,value,XGBoost direct,,AUPRC,0.4439162586094977,,,
+rolling,2.0,value,XGBoost direct,,Brier,0.04032402674385913,,,
+rolling,2.0,value,XGBoost direct,,Sens@Spec90,0.6486538959022591,,,
+rolling,2.0,value,XGBoost direct,,Accuracy,0.9342161000610386,,,
+rolling,2.0,value,XGBoost direct,,Balanced acc.,0.6862375982465808,,,
+rolling,2.0,value,XGBoost direct,,Sensitivity,0.4076515498086734,,,
+rolling,2.0,value,XGBoost direct,,Specificity,0.9648236466844883,,,
+rolling,2.0,value,XGBoost direct,,PPV,0.40529561059407315,,,
+rolling,2.0,value,XGBoost direct,,NPV,0.9600681947987583,,,
+rolling,2.0,value,XGBoost direct,,F1,0.3825543369968804,,,
+rolling,2.0,value,XGBoost direct,,MCC,0.3580046475623127,,,
+rolling,2.0,value,CatBoost direct,,AUROC,0.8247012186775565,,,
+rolling,2.0,value,CatBoost direct,,AUPRC,0.43601996039146973,,,
+rolling,2.0,value,CatBoost direct,,Brier,0.040909906271738274,,,
+rolling,2.0,value,CatBoost direct,,Sens@Spec90,0.5665625247744747,,,
+rolling,2.0,value,CatBoost direct,,Accuracy,0.9346364015287444,,,
+rolling,2.0,value,CatBoost direct,,Balanced acc.,0.6854611760026085,,,
+rolling,2.0,value,CatBoost direct,,Sensitivity,0.4058202647569937,,,
+rolling,2.0,value,CatBoost direct,,Specificity,0.9651020872482233,,,
+rolling,2.0,value,CatBoost direct,,PPV,0.40151740935976965,,,
+rolling,2.0,value,CatBoost direct,,NPV,0.9603426848103042,,,
+rolling,2.0,value,CatBoost direct,,F1,0.37998406946170793,,,
+rolling,2.0,value,CatBoost direct,,MCC,0.35559424814574647,,,
+rolling,2.0,value,RealMLP direct,,AUROC,0.7561397609995815,,,
+rolling,2.0,value,RealMLP direct,,AUPRC,0.3878418423581058,,,
+rolling,2.0,value,RealMLP direct,,Brier,0.04528623205813485,,,
+rolling,2.0,value,RealMLP direct,,Sens@Spec90,0.5374655909063496,,,
+rolling,2.0,value,RealMLP direct,,Accuracy,0.9310969488325077,,,
+rolling,2.0,value,RealMLP direct,,Balanced acc.,0.6759624120185139,,,
+rolling,2.0,value,RealMLP direct,,Sensitivity,0.388949561806195,,,
+rolling,2.0,value,RealMLP direct,,Specificity,0.962975262230833,,,
+rolling,2.0,value,RealMLP direct,,PPV,0.3661906901257013,,,
+rolling,2.0,value,RealMLP direct,,NPV,0.9582957831275396,,,
+rolling,2.0,value,RealMLP direct,,F1,0.3559218123778492,,,
+rolling,2.0,value,RealMLP direct,,MCC,0.3284207979993604,,,
+rolling,2.0,value,TabM direct,,AUROC,0.7571789318451003,,,
+rolling,2.0,value,TabM direct,,AUPRC,0.35915754859496063,,,
+rolling,2.0,value,TabM direct,,Brier,0.04461307347280818,,,
+rolling,2.0,value,TabM direct,,Sens@Spec90,0.47102876947121414,,,
+rolling,2.0,value,TabM direct,,Accuracy,0.9290104344946872,,,
+rolling,2.0,value,TabM direct,,Balanced acc.,0.6418424159132121,,,
+rolling,2.0,value,TabM direct,,Sensitivity,0.3218075351222893,,,
+rolling,2.0,value,TabM direct,,Specificity,0.9618772967041348,,,
+rolling,2.0,value,TabM direct,,PPV,0.3115180480055398,,,
+rolling,2.0,value,TabM direct,,NPV,0.9571712414868686,,,
+rolling,2.0,value,TabM direct,,F1,0.30473077251177616,,,
+rolling,2.0,value,TabM direct,,MCC,0.27147149804086446,,,
+rolling,2.0,value,TabICL direct,,AUROC,0.8940520985084391,,,
+rolling,2.0,value,TabICL direct,,AUPRC,0.47879579254910737,,,
+rolling,2.0,value,TabICL direct,,Brier,0.03906825142821846,,,
+rolling,2.0,value,TabICL direct,,Sens@Spec90,0.7042856134220133,,,
+rolling,2.0,value,TabICL direct,,Accuracy,0.9363528984069024,,,
+rolling,2.0,value,TabICL direct,,Balanced acc.,0.6950531290574486,,,
+rolling,2.0,value,TabICL direct,,Sensitivity,0.42406257981482903,,,
+rolling,2.0,value,TabICL direct,,Specificity,0.9660436783000682,,,
+rolling,2.0,value,TabICL direct,,PPV,0.4149920635640898,,,
+rolling,2.0,value,TabICL direct,,NPV,0.961273831083883,,,
+rolling,2.0,value,TabICL direct,,F1,0.39496773325123263,,,
+rolling,2.0,value,TabICL direct,,MCC,0.37193777181234616,,,
+rolling,2.0,value,HGB RAD-C,,AUROC,0.8797326992518647,,,
+rolling,2.0,value,HGB RAD-C,,AUPRC,0.45525662823130725,,,
+rolling,2.0,value,HGB RAD-C,,Brier,0.03995685805973329,,,
+rolling,2.0,value,HGB RAD-C,,Sens@Spec90,0.6647196438998204,,,
+rolling,2.0,value,HGB RAD-C,,Accuracy,0.9340661110678715,,,
+rolling,2.0,value,HGB RAD-C,,Balanced acc.,0.6901951513768443,,,
+rolling,2.0,value,HGB RAD-C,,Sensitivity,0.4156859477530547,,,
+rolling,2.0,value,HGB RAD-C,,Specificity,0.9647043550006337,,,
+rolling,2.0,value,HGB RAD-C,,PPV,0.4207622334675006,,,
+rolling,2.0,value,HGB RAD-C,,NPV,0.9599502976333131,,,
+rolling,2.0,value,HGB RAD-C,,F1,0.3932241046240712,,,
+rolling,2.0,value,HGB RAD-C,,MCC,0.36908635339481227,,,
+rolling,2.0,value,LightGBM RAD-C,,AUROC,0.8812804544372808,,,
+rolling,2.0,value,LightGBM RAD-C,,AUPRC,0.4501268184485308,,,
+rolling,2.0,value,LightGBM RAD-C,,Brier,0.04038531447064322,,,
+rolling,2.0,value,LightGBM RAD-C,,Sens@Spec90,0.6388177462515926,,,
+rolling,2.0,value,LightGBM RAD-C,,Accuracy,0.9334917028756248,,,
+rolling,2.0,value,LightGBM RAD-C,,Balanced acc.,0.6838701267901932,,,
+rolling,2.0,value,LightGBM RAD-C,,Sensitivity,0.40333656619179453,,,
+rolling,2.0,value,LightGBM RAD-C,,Specificity,0.964403687388592,,,
+rolling,2.0,value,LightGBM RAD-C,,PPV,0.39892240863580464,,,
+rolling,2.0,value,LightGBM RAD-C,,NPV,0.9596591630675813,,,
+rolling,2.0,value,LightGBM RAD-C,,F1,0.377542382129365,,,
+rolling,2.0,value,LightGBM RAD-C,,MCC,0.3524124300591899,,,
+rolling,2.0,value,XGBoost RAD-C,,AUROC,0.8783488269592602,,,
+rolling,2.0,value,XGBoost RAD-C,,AUPRC,0.45230271600514416,,,
+rolling,2.0,value,XGBoost RAD-C,,Brier,0.04018964574003569,,,
+rolling,2.0,value,XGBoost RAD-C,,Sens@Spec90,0.6685713381023543,,,
+rolling,2.0,value,XGBoost RAD-C,,Accuracy,0.9342433379013172,,,
+rolling,2.0,value,XGBoost RAD-C,,Balanced acc.,0.6945901888925119,,,
+rolling,2.0,value,XGBoost RAD-C,,Sensitivity,0.4244007405250085,,,
+rolling,2.0,value,XGBoost RAD-C,,Specificity,0.9647796372600153,,,
+rolling,2.0,value,XGBoost RAD-C,,PPV,0.4178881900752131,,,
+rolling,2.0,value,XGBoost RAD-C,,NPV,0.9600324387474976,,,
+rolling,2.0,value,XGBoost RAD-C,,F1,0.3951770716775487,,,
+rolling,2.0,value,XGBoost RAD-C,,MCC,0.3715658031656757,,,
+rolling,2.0,value,CatBoost RAD-C,,AUROC,0.8759692490983372,,,
+rolling,2.0,value,CatBoost RAD-C,,AUPRC,0.46059725015901,,,
+rolling,2.0,value,CatBoost RAD-C,,Brier,0.039367111432026154,,,
+rolling,2.0,value,CatBoost RAD-C,,Sens@Spec90,0.6646529789934931,,,
+rolling,2.0,value,CatBoost RAD-C,,Accuracy,0.9350726771905506,,,
+rolling,2.0,value,CatBoost RAD-C,,Balanced acc.,0.6947407795913468,,,
+rolling,2.0,value,CatBoost RAD-C,,Sensitivity,0.4241818306115214,,,
+rolling,2.0,value,CatBoost RAD-C,,Specificity,0.9652997285711721,,,
+rolling,2.0,value,CatBoost RAD-C,,PPV,0.4173051897916938,,,
+rolling,2.0,value,CatBoost RAD-C,,NPV,0.9605577556534591,,,
+rolling,2.0,value,CatBoost RAD-C,,F1,0.39456726126822433,,,
+rolling,2.0,value,CatBoost RAD-C,,MCC,0.3715808538980844,,,
+rolling,2.0,value,RealMLP RAD-C,,AUROC,0.8063213487989762,,,
+rolling,2.0,value,RealMLP RAD-C,,AUPRC,0.40923227201701157,,,
+rolling,2.0,value,RealMLP RAD-C,,Brier,0.04517433785165826,,,
+rolling,2.0,value,RealMLP RAD-C,,Sens@Spec90,0.5946226536771204,,,
+rolling,2.0,value,RealMLP RAD-C,,Accuracy,0.9302055516354272,,,
+rolling,2.0,value,RealMLP RAD-C,,Balanced acc.,0.6821240948011156,,,
+rolling,2.0,value,RealMLP RAD-C,,Sensitivity,0.40186815404704485,,,
+rolling,2.0,value,RealMLP RAD-C,,Specificity,0.9623800355551866,,,
+rolling,2.0,value,RealMLP RAD-C,,PPV,0.39092482752444047,,,
+rolling,2.0,value,RealMLP RAD-C,,NPV,0.9577302107339482,,,
+rolling,2.0,value,RealMLP RAD-C,,F1,0.3715274521343219,,,
+rolling,2.0,value,RealMLP RAD-C,,MCC,0.34500700510702426,,,
+rolling,2.0,value,TabM RAD-C,,AUROC,0.8008177335738799,,,
+rolling,2.0,value,TabM RAD-C,,AUPRC,0.42314962030889536,,,
+rolling,2.0,value,TabM RAD-C,,Brier,0.04167561158149958,,,
+rolling,2.0,value,TabM RAD-C,,Sens@Spec90,0.5663456449806176,,,
+rolling,2.0,value,TabM RAD-C,,Accuracy,0.9308326539929356,,,
+rolling,2.0,value,TabM RAD-C,,Balanced acc.,0.6690419745655174,,,
+rolling,2.0,value,TabM RAD-C,,Sensitivity,0.37522594069567783,,,
+rolling,2.0,value,TabM RAD-C,,Specificity,0.9628580084353568,,,
+rolling,2.0,value,TabM RAD-C,,PPV,0.3366238543678585,,,
+rolling,2.0,value,TabM RAD-C,,NPV,0.9581274301315288,,,
+rolling,2.0,value,TabM RAD-C,,F1,0.33594754456730197,,,
+rolling,2.0,value,TabM RAD-C,,MCC,0.3074744411768169,,,
+rolling,2.0,value,TabICL RAD-C,,AUROC,0.8941812892741018,,,
+rolling,2.0,value,TabICL RAD-C,,AUPRC,0.46945643162651546,,,
+rolling,2.0,value,TabICL RAD-C,,Brier,0.038807122051780614,,,
+rolling,2.0,value,TabICL RAD-C,,Sens@Spec90,0.7038089581006247,,,
+rolling,2.0,value,TabICL RAD-C,,Accuracy,0.9360531511194414,,,
+rolling,2.0,value,TabICL RAD-C,,Balanced acc.,0.6947558487609389,,,
+rolling,2.0,value,TabICL RAD-C,,Sensitivity,0.4236467020149764,,,
+rolling,2.0,value,TabICL RAD-C,,Specificity,0.9658649955069015,,,
+rolling,2.0,value,TabICL RAD-C,,PPV,0.42133272362193175,,,
+rolling,2.0,value,TabICL RAD-C,,NPV,0.9611092377978402,,,
+rolling,2.0,value,TabICL RAD-C,,F1,0.39773706163595424,,,
+rolling,2.0,value,TabICL RAD-C,,MCC,0.37463807784354847,,,
+rolling,2.0,delta,final system,RAD system (published),AUROC,0.0043886447990226785,0.0021076749916154325,0.006854948550791226,False
+rolling,2.0,delta,final system,RAD system (published),AUPRC,0.010913716846137622,0.004432008290908288,0.016691477859056926,False
+rolling,2.0,delta,final system,RAD system (published),Brier,-0.0009549090923053338,-0.0012860238156821246,-0.0006699239041662265,False
+rolling,2.0,delta,final system,RAD system (published),Sens@Spec90,0.010193278137937578,-0.002185394705326554,0.026599861199062096,False
+rolling,2.0,delta,final system,RAD system (published),Accuracy,0.0014204732028676448,0.00012576622614068889,0.002666238334772555,False
+rolling,2.0,delta,final system,RAD system (published),Balanced acc.,0.004260069396771926,-0.0014748136431549984,0.01160133591877673,False
+rolling,2.0,delta,final system,RAD system (published),Sensitivity,0.007692493110451559,-0.004167426060194664,0.021816349308985405,False
+rolling,2.0,delta,final system,RAD system (published),Specificity,0.0008276456830920154,-0.0002874304692736612,0.001959625555429276,False
+rolling,2.0,delta,final system,RAD system (published),PPV,0.0019945802277410163,-0.01943942403536198,0.02307654816150965,False
+rolling,2.0,delta,final system,RAD system (published),NPV,0.0008185463115365499,1.4233254903586739e-05,0.0016607496495440878,False
+rolling,2.0,delta,final system,RAD system (published),F1,0.004987724628065626,-0.00772439130798739,0.018760055070242906,False
+rolling,2.0,delta,final system,RAD system (published),MCC,0.005741372242566933,-0.008071899523468786,0.020864317927815162,False
+rolling,2.0,delta,final system,SeqLab network (cond),AUROC,-0.00332642929272442,-0.008302613710885826,0.0018758739274584997,False
+rolling,2.0,delta,final system,SeqLab network (cond),AUPRC,0.015410146360799015,0.004540147390559646,0.026401780886998533,False
+rolling,2.0,delta,final system,SeqLab network (cond),Brier,-0.0008299924997116973,-0.0013015252806416427,-0.00036085494884575134,False
+rolling,2.0,delta,final system,SeqLab network (cond),Sens@Spec90,0.0036196142263822395,-0.019552037954040008,0.025745280813478322,False
+rolling,2.0,delta,final system,SeqLab network (cond),Accuracy,0.0018389378597374328,0.00020191024532566218,0.0034583670027703017,False
+rolling,2.0,delta,final system,SeqLab network (cond),Balanced acc.,0.006653405070906393,-0.003389734276681597,0.015440998055767029,False
+rolling,2.0,delta,final system,SeqLab network (cond),Sensitivity,0.01223773304938619,-0.007772555263229067,0.02999255803656021,False
+rolling,2.0,delta,final system,SeqLab network (cond),Specificity,0.0010690770924259851,-0.00038534202590066735,0.0026269467749487625,False
+rolling,2.0,delta,final system,SeqLab network (cond),PPV,0.02452779872168792,-0.004043803317905915,0.049397581493853426,False
+rolling,2.0,delta,final system,SeqLab network (cond),NPV,0.0010634977357996123,1.337738188865179e-05,0.0021028038948401355,False
+rolling,2.0,delta,final system,SeqLab network (cond),F1,0.01729295613564119,-0.0032305533719134524,0.0355862018904929,False
+rolling,2.0,delta,final system,SeqLab network (cond),MCC,0.018911312682152126,-0.002814880773656339,0.03821709737638042,False
+rolling,2.0,delta,final system,direct ensemble,AUROC,0.01348993829403422,0.005819153912001879,0.02239965556923071,False
+rolling,2.0,delta,final system,direct ensemble,AUPRC,0.025457152536206507,0.012928229786609282,0.03793835332462758,False
+rolling,2.0,delta,final system,direct ensemble,Brier,-0.00249525783082577,-0.0030658722339286224,-0.0019604806387045213,False
+rolling,2.0,delta,final system,direct ensemble,Sens@Spec90,0.031236882956845236,0.009158930166723612,0.05542827362602657,False
+rolling,2.0,delta,final system,direct ensemble,Accuracy,0.0028621975118260368,0.0011694013275687725,0.004644721354220014,False
+rolling,2.0,delta,final system,direct ensemble,Balanced acc.,0.007736803847811724,-0.002736692220556233,0.018063411390160933,False
+rolling,2.0,delta,final system,direct ensemble,Sensitivity,0.01376652445363774,-0.006518784158690248,0.034662255858899135,False
+rolling,2.0,delta,final system,direct ensemble,Specificity,0.0017070832419853188,4.840068837560219e-05,0.0034689139740049276,False
+rolling,2.0,delta,final system,direct ensemble,PPV,0.015380321122000773,-0.012190536057191101,0.04562714048094,False
+rolling,2.0,delta,final system,direct ensemble,NPV,0.0016789498861555785,0.0006256535112447558,0.002775710373508816,False
+rolling,2.0,delta,final system,direct ensemble,F1,0.014735788009342499,-0.004680805786478438,0.03616424777754609,False
+rolling,2.0,delta,final system,direct ensemble,MCC,0.016371935801713033,-0.004594671674276988,0.03844016602294165,False
+rolling,2.0,delta,final system,HGB direct,AUROC,0.06694306678858197,0.05158125821546185,0.08591723930859937,False
+rolling,2.0,delta,final system,HGB direct,AUPRC,0.07879044504062283,0.05431237215200979,0.1008320985213712,False
+rolling,2.0,delta,final system,HGB direct,Brier,-0.0046520346680123045,-0.005500635291174612,-0.0037924165986295104,False
+rolling,2.0,delta,final system,HGB direct,Sens@Spec90,0.12419763312900656,0.08997255625824432,0.16172291778192177,False
+rolling,2.0,delta,final system,HGB direct,Accuracy,0.005301995723944408,0.0029911749782489143,0.007937272608600198,False
+rolling,2.0,delta,final system,HGB direct,Balanced acc.,0.02677285289074094,0.01628308477815105,0.04013690272071938,False
+rolling,2.0,delta,final system,HGB direct,Sensitivity,0.050493578909063364,0.029548842448771765,0.07656465831378828,False
+rolling,2.0,delta,final system,HGB direct,Specificity,0.0030521268724180706,0.0009227860462814403,0.005414970263414501,False
+rolling,2.0,delta,final system,HGB direct,PPV,0.05469036613804956,0.025981740317730546,0.08898491873756526,False
+rolling,2.0,delta,final system,HGB direct,NPV,0.0030194198311543907,0.0016297940528602977,0.00448278381909675,False
+rolling,2.0,delta,final system,HGB direct,F1,0.048538177007453054,0.02588044494324326,0.0742837770166982,False
+rolling,2.0,delta,final system,HGB direct,MCC,0.05355975806559238,0.031154916427084067,0.08013436807160086,False
+rolling,2.0,delta,final system,LightGBM direct,AUROC,0.0476091988577837,0.03357825999182795,0.06410490831898967,False
+rolling,2.0,delta,final system,LightGBM direct,AUPRC,0.07116059109933442,0.04935952830013048,0.08838249595906271,False
+rolling,2.0,delta,final system,LightGBM direct,Brier,-0.003931968968275142,-0.004762258734968799,-0.0031042227473840477,False
+rolling,2.0,delta,final system,LightGBM direct,Sens@Spec90,0.0887313547245443,0.05218024282711606,0.12336147796897202,False
+rolling,2.0,delta,final system,LightGBM direct,Accuracy,0.0048228121699741555,0.002452962371707071,0.007238292486445602,False
+rolling,2.0,delta,final system,LightGBM direct,Balanced acc.,0.02435987796179062,0.012983935158530214,0.03698615288114302,False
+rolling,2.0,delta,final system,LightGBM direct,Sensitivity,0.04594646298730293,0.02400710620954229,0.07111280614906422,False
+rolling,2.0,delta,final system,LightGBM direct,Specificity,0.002773292936278038,0.0005326171775158539,0.0050335402096003705,False
+rolling,2.0,delta,final system,LightGBM direct,PPV,0.05339012049156727,0.023311978320899783,0.08489579726720005,False
+rolling,2.0,delta,final system,LightGBM direct,NPV,0.0027670254817949713,0.0013420990815802725,0.0041964957791460365,False
+rolling,2.0,delta,final system,LightGBM direct,F1,0.04584894956620034,0.02475612665716522,0.06946630039554952,False
+rolling,2.0,delta,final system,LightGBM direct,MCC,0.0504946355572779,0.027820941105381695,0.07510130255090457,False
+rolling,2.0,delta,final system,XGBoost direct,AUROC,0.055732713871269435,0.042001111410288075,0.0743146426430989,False
+rolling,2.0,delta,final system,XGBoost direct,AUPRC,0.06729441473713316,0.04748428664843215,0.0836624487173665,False
+rolling,2.0,delta,final system,XGBoost direct,Brier,-0.003670421610911523,-0.004424909307848363,-0.0029081656662198006,False
+rolling,2.0,delta,final system,XGBoost direct,Sens@Spec90,0.07569705180641018,0.04651458631435195,0.11391031501645482,False
+rolling,2.0,delta,final system,XGBoost direct,Accuracy,0.005041457627615431,0.002599378254963161,0.007695743087215495,False
+rolling,2.0,delta,final system,XGBoost direct,Balanced acc.,0.024527268695627935,0.012937045073642179,0.038480695597836546,False
+rolling,2.0,delta,final system,XGBoost direct,Sensitivity,0.046152153682769315,0.02330620499670701,0.07330658163537712,False
+rolling,2.0,delta,final system,XGBoost direct,Specificity,0.002902383708486056,0.0007787003569544843,0.005229719589142566,False
+rolling,2.0,delta,final system,XGBoost direct,PPV,0.05075210146552944,0.020095390531381825,0.08580831938857941,False
+rolling,2.0,delta,final system,XGBoost direct,NPV,0.002871248724305886,0.0014155373157017342,0.004308530870653789,False
+rolling,2.0,delta,final system,XGBoost direct,F1,0.04544573302845201,0.022987472393076146,0.07268745901289525,False
+rolling,2.0,delta,final system,XGBoost direct,MCC,0.04981426477972156,0.026988146053642074,0.07819748489254784,False
+rolling,2.0,delta,final system,CatBoost direct,AUROC,0.07989434304159626,0.0654904839762759,0.09602133140410597,False
+rolling,2.0,delta,final system,CatBoost direct,AUPRC,0.07519071295516111,0.05663009527067498,0.09181213845605599,False
+rolling,2.0,delta,final system,CatBoost direct,Brier,-0.0042563011387906635,-0.0050292931924690405,-0.003456182665939631,False
+rolling,2.0,delta,final system,CatBoost direct,Sens@Spec90,0.1577884229341946,0.126718454613036,0.1918153129487351,False
+rolling,2.0,delta,final system,CatBoost direct,Accuracy,0.004621156159909656,0.002328480233559188,0.006961620049471592,False
+rolling,2.0,delta,final system,CatBoost direct,Balanced acc.,0.025303690939600276,0.014637194038997698,0.0369332490693014,False
+rolling,2.0,delta,final system,CatBoost direct,Sensitivity,0.047983438734449047,0.026081513159856583,0.07117606530949655,False
+rolling,2.0,delta,final system,CatBoost direct,Specificity,0.0026239431447510064,0.00047268017810475627,0.004982669006080365,False
+rolling,2.0,delta,final system,CatBoost direct,PPV,0.054530302699832944,0.022510197994287214,0.08818320760540423,False
+rolling,2.0,delta,final system,CatBoost direct,NPV,0.0025967587127599945,0.001218061933615805,0.003907105010465113,False
+rolling,2.0,delta,final system,CatBoost direct,F1,0.048016000563624484,0.02659319096524417,0.07048462326111574,False
+rolling,2.0,delta,final system,CatBoost direct,MCC,0.052224664196287796,0.029882801924466636,0.07596700074350335,False
+rolling,2.0,delta,final system,RealMLP direct,AUROC,0.14845580071957132,0.12875763933395004,0.1709902444532658,False
+rolling,2.0,delta,final system,RealMLP direct,AUPRC,0.12336883098852502,0.09249642955314223,0.1502427388288173,False
+rolling,2.0,delta,final system,RealMLP direct,Brier,-0.008632626925187237,-0.009720502105733409,-0.007562565546214183,False
+rolling,2.0,delta,final system,RealMLP direct,Sens@Spec90,0.18688535680231966,0.14947385583850759,0.22942139352193638,False
+rolling,2.0,delta,final system,RealMLP direct,Accuracy,0.008160608856146334,0.005491750736433129,0.010970513851856841,False
+rolling,2.0,delta,final system,RealMLP direct,Balanced acc.,0.034802454923694826,0.02010294512224512,0.04980837579980066,False
+rolling,2.0,delta,final system,RealMLP direct,Sensitivity,0.06485414168524772,0.03518240068500852,0.09481216468365337,False
+rolling,2.0,delta,final system,RealMLP direct,Specificity,0.004750768162141372,0.0023423225465667137,0.007517367377407965,False
+rolling,2.0,delta,final system,RealMLP direct,PPV,0.08985702193390127,0.056621383565368874,0.122817962609226,False
+rolling,2.0,delta,final system,RealMLP direct,NPV,0.0046436603955245515,0.003157878257570351,0.0062153297111530335,False
+rolling,2.0,delta,final system,RealMLP direct,F1,0.07207825764748321,0.044000031306742064,0.09723024894823734,False
+rolling,2.0,delta,final system,RealMLP direct,MCC,0.07939811434267385,0.051170311327042445,0.10503811582484443,False
+rolling,2.0,delta,final system,TabM direct,AUROC,0.14741662987405246,0.12923464632872286,0.16493993588958128,False
+rolling,2.0,delta,final system,TabM direct,AUPRC,0.1520531247516702,0.11479114426712181,0.18210273435742982,False
+rolling,2.0,delta,final system,TabM direct,Brier,-0.007959468339860568,-0.009051856733757344,-0.006926704855018538,False
+rolling,2.0,delta,final system,TabM direct,Sens@Spec90,0.2533221782374551,0.21023128783936468,0.2977644232785404,False
+rolling,2.0,delta,final system,TabM direct,Accuracy,0.010247123193966812,0.007547567437078151,0.012997116922673267,False
+rolling,2.0,delta,final system,TabM direct,Balanced acc.,0.06892245102899663,0.051587735389142936,0.08329213316786738,False
+rolling,2.0,delta,final system,TabM direct,Sensitivity,0.1319961683691534,0.0970382564857136,0.16064963649462333,False
+rolling,2.0,delta,final system,TabM direct,Specificity,0.005848733688839536,0.0030533220664277884,0.00876805176678899,False
+rolling,2.0,delta,final system,TabM direct,PPV,0.1445296640540628,0.10549762271907136,0.1785648809693585,False
+rolling,2.0,delta,final system,TabM direct,NPV,0.005768202036195547,0.004293936507902499,0.007326259484310121,False
+rolling,2.0,delta,final system,TabM direct,F1,0.12326929751355625,0.09239889979418497,0.1502551174932767,False
+rolling,2.0,delta,final system,TabM direct,MCC,0.1363474143011698,0.10463742765922399,0.16305600609026386,False
+rolling,2.0,delta,final system,TabICL direct,AUROC,0.010543463210713644,-8.539075460875467e-06,0.021350537513919268,True
+rolling,2.0,delta,final system,TabICL direct,AUPRC,0.03241488079752347,0.011326545928285508,0.049981726154775696,True
+rolling,2.0,delta,final system,TabICL direct,Brier,-0.002414646295270849,-0.003228454849294198,-0.0016298648030685146,True
+rolling,2.0,delta,final system,TabICL direct,Sens@Spec90,0.02006533428665591,-0.015224027034809939,0.05197279232503168,True
+rolling,2.0,delta,final system,TabICL direct,Accuracy,0.0029046592817516537,0.0006030906127715341,0.0054238484388969685,True
+rolling,2.0,delta,final system,TabICL direct,Balanced acc.,0.015711737884760102,0.004292282382631929,0.027956994345566755,True
+rolling,2.0,delta,final system,TabICL direct,Sensitivity,0.02974112367661369,0.007106716045155549,0.05433636168087957,True
+rolling,2.0,delta,final system,TabICL direct,Specificity,0.0016823520929061253,-0.00036542797691253013,0.00405352257649301,True
+rolling,2.0,delta,final system,TabICL direct,PPV,0.0410556484955128,0.011354757135584606,0.07270886208720231,True
+rolling,2.0,delta,final system,TabICL direct,NPV,0.0016656124391811744,0.00019794731160924784,0.003199847850277204,True
+rolling,2.0,delta,final system,TabICL direct,F1,0.03303233677409978,0.010089946762928789,0.05727885266075116,True
+rolling,2.0,delta,final system,TabICL direct,MCC,0.035881140529688105,0.012746632639116393,0.06136408170925635,True
+rolling,2.0,delta,final system,HGB RAD-C,AUROC,0.024862862467288083,0.01527865750033112,0.03636846865351674,False
+rolling,2.0,delta,final system,HGB RAD-C,AUPRC,0.05595404511532359,0.03897582450101532,0.07409089226446287,False
+rolling,2.0,delta,final system,HGB RAD-C,Brier,-0.0033032529267856825,-0.0040390185154801726,-0.0026258673362373197,False
+rolling,2.0,delta,final system,HGB RAD-C,Sens@Spec90,0.059631303808848846,0.02738861143314112,0.08885284066194134,False
+rolling,2.0,delta,final system,HGB RAD-C,Accuracy,0.005191446620782525,0.003107107153723629,0.007523125598435162,False
+rolling,2.0,delta,final system,HGB RAD-C,Balanced acc.,0.020569715565364466,0.009387032330862442,0.033277938999306055,False
+rolling,2.0,delta,final system,HGB RAD-C,Sensitivity,0.03811775573838805,0.015371413921963395,0.06336002013580112,False
+rolling,2.0,delta,final system,HGB RAD-C,Specificity,0.0030216753923406614,0.0010666824842706756,0.005130236705895816,False
+rolling,2.0,delta,final system,HGB RAD-C,PPV,0.035285478592102015,0.0066009856994981245,0.06726197803222693,False
+rolling,2.0,delta,final system,HGB RAD-C,NPV,0.002989145889751077,0.00170800931491365,0.004361663908228172,False
+rolling,2.0,delta,final system,HGB RAD-C,F1,0.03477596540126121,0.013464179240322182,0.057547407537722126,False
+rolling,2.0,delta,final system,HGB RAD-C,MCC,0.038732558947221996,0.016303501398451038,0.0629759002183024,False
+rolling,2.0,delta,final system,LightGBM RAD-C,AUROC,0.023315107281872027,0.013040285204031055,0.0341119167276316,False
+rolling,2.0,delta,final system,LightGBM RAD-C,AUPRC,0.06108385489810003,0.04563496800560764,0.07632143479586304,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Brier,-0.0037317093376956073,-0.004442586612593145,-0.003053025903327552,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Sens@Spec90,0.08553320145707666,0.050301228843483946,0.11236449501847073,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Accuracy,0.00576585481302927,0.003549084304693698,0.00812033235641034,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Balanced acc.,0.02689474015201554,0.01628033730453638,0.039373134904365795,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Sensitivity,0.05046713729964819,0.028924331065086552,0.07418415542041383,False
+rolling,2.0,delta,final system,LightGBM RAD-C,Specificity,0.0033223430043823887,0.0013133180426863622,0.005486784483480686,False
+rolling,2.0,delta,final system,LightGBM RAD-C,PPV,0.05712530342379796,0.027323707699516735,0.08784185463414672,False
+rolling,2.0,delta,final system,LightGBM RAD-C,NPV,0.003280280455482898,0.0020179509197573555,0.0046982841334972545,False
+rolling,2.0,delta,final system,LightGBM RAD-C,F1,0.05045768789596744,0.028992938575607925,0.07349766006258057,False
+rolling,2.0,delta,final system,LightGBM RAD-C,MCC,0.055406482282844394,0.03250681025217626,0.08012707792648194,False
+rolling,2.0,delta,final system,XGBoost RAD-C,AUROC,0.026246734759892587,0.015826925022881515,0.037229307407813585,False
+rolling,2.0,delta,final system,XGBoost RAD-C,AUPRC,0.05890795734148668,0.039646726673128664,0.0750306260176049,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Brier,-0.0035360406070880784,-0.0042593327875639995,-0.002801500196123458,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Sens@Spec90,0.055779609606315006,0.023845404045074434,0.08729431243156625,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Accuracy,0.005014219787336849,0.0028240042950474164,0.007401520496613017,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Balanced acc.,0.016174678049696856,0.005324510500629889,0.027610968061148138,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Sensitivity,0.029402962966434243,0.008252947562045684,0.052511703795580414,False
+rolling,2.0,delta,final system,XGBoost RAD-C,Specificity,0.00294639313295908,0.0009953461801674307,0.005013560223662222,False
+rolling,2.0,delta,final system,XGBoost RAD-C,PPV,0.03815952198438949,0.0122499424723096,0.06694484671439119,False
+rolling,2.0,delta,final system,XGBoost RAD-C,NPV,0.0029070047755666018,0.0016549980781663642,0.004394726470853316,False
+rolling,2.0,delta,final system,XGBoost RAD-C,F1,0.03282299834778374,0.015545194315976849,0.053576520710598353,False
+rolling,2.0,delta,final system,XGBoost RAD-C,MCC,0.036253109176358544,0.017441638204812974,0.05813221209108696,False
+rolling,2.0,delta,final system,CatBoost RAD-C,AUROC,0.028626312620815608,0.018123851106179988,0.03987419172743091,False
+rolling,2.0,delta,final system,CatBoost RAD-C,AUPRC,0.050613423187620854,0.03157214040899026,0.0692852764439479,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Brier,-0.002713506299078544,-0.0034418983159498475,-0.0019854939516187474,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Sens@Spec90,0.059697968715176186,0.03306946260618089,0.09387670614445773,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Accuracy,0.004184880498103394,0.0021135990132807093,0.0064359871617829705,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Balanced acc.,0.016024087350861915,0.00456137242824062,0.028814528702013186,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Sensitivity,0.029621872879921296,0.0062993550408392525,0.055137912897540116,False
+rolling,2.0,delta,final system,CatBoost RAD-C,Specificity,0.002426301821802257,0.0005447918818073189,0.004474441538350779,False
+rolling,2.0,delta,final system,CatBoost RAD-C,PPV,0.03874252226790881,0.009397651698229424,0.0777544022617547,False
+rolling,2.0,delta,final system,CatBoost RAD-C,NPV,0.0023816878696050203,0.0010354599311276607,0.003720960539727061,False
+rolling,2.0,delta,final system,CatBoost RAD-C,F1,0.03343280875710808,0.010446299625604739,0.06096602754990511,False
+rolling,2.0,delta,final system,CatBoost RAD-C,MCC,0.036238058443949894,0.01249888832333189,0.06509496758008011,False
+rolling,2.0,delta,final system,RealMLP RAD-C,AUROC,0.09827421292017657,0.08205672142070464,0.11655987596384008,False
+rolling,2.0,delta,final system,RealMLP RAD-C,AUPRC,0.10197840132961927,0.07525258624930334,0.12684564794569872,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Brier,-0.00852073271871065,-0.009744823029852181,-0.007249882928350509,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Sens@Spec90,0.12972829403154884,0.09104291476988295,0.16377460723873516,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Accuracy,0.009052006053226869,0.006374435226507774,0.01181870705034011,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Balanced acc.,0.028640772141093174,0.015676957524807602,0.04084625806037211,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Sensitivity,0.05193554944439788,0.02639936239068976,0.07593126557553519,False
+rolling,2.0,delta,final system,RealMLP RAD-C,Specificity,0.005345994837787749,0.002646384206870733,0.00790174118277047,False
+rolling,2.0,delta,final system,RealMLP RAD-C,PPV,0.06512288453516213,0.0281818542631432,0.09873208272022674,False
+rolling,2.0,delta,final system,RealMLP RAD-C,NPV,0.005209232789116003,0.003544852806177984,0.006950640198578412,False
+rolling,2.0,delta,final system,RealMLP RAD-C,F1,0.05647261789101049,0.02977592781247749,0.08150340484511213,False
+rolling,2.0,delta,final system,RealMLP RAD-C,MCC,0.06281190723501001,0.03443645803415768,0.08925169132607415,False
+rolling,2.0,delta,final system,TabM RAD-C,AUROC,0.10377782814527292,0.09112540616307856,0.11643507394102343,False
+rolling,2.0,delta,final system,TabM RAD-C,AUPRC,0.08806105303773548,0.06525068080287529,0.10851454027598074,False
+rolling,2.0,delta,final system,TabM RAD-C,Brier,-0.005022006448551969,-0.005939228058157917,-0.004126957334334489,False
+rolling,2.0,delta,final system,TabM RAD-C,Sens@Spec90,0.1580053027280517,0.1148363327695309,0.19170655777385306,False
+rolling,2.0,delta,final system,TabM RAD-C,Accuracy,0.008424903695718466,0.0060122573519564735,0.010927176934458882,False
+rolling,2.0,delta,final system,TabM RAD-C,Balanced acc.,0.041722892376691356,0.029073005793762423,0.05445812337106139,False
+rolling,2.0,delta,final system,TabM RAD-C,Sensitivity,0.0785777627957649,0.053221369217461276,0.1036612104957236,False
+rolling,2.0,delta,final system,TabM RAD-C,Specificity,0.0048680219576174855,0.002477945939001655,0.007422835717650921,False
+rolling,2.0,delta,final system,TabM RAD-C,PPV,0.11942385769174407,0.08204367824499502,0.15354492401630757,False
+rolling,2.0,delta,final system,TabM RAD-C,NPV,0.0048120133915353636,0.003464653273471149,0.006310477348339554,False
+rolling,2.0,delta,final system,TabM RAD-C,F1,0.09205252545803044,0.0652182003263287,0.11737942065734709,False
+rolling,2.0,delta,final system,TabM RAD-C,MCC,0.10034447116521739,0.07264920427682918,0.12625864126991762,False
+rolling,2.0,delta,final system,TabICL RAD-C,AUROC,0.010414272445050998,0.00020892084783175627,0.020850504048276094,False
+rolling,2.0,delta,final system,TabICL RAD-C,AUPRC,0.04175424172011538,0.022720802722456458,0.05998075834189277,False
+rolling,2.0,delta,final system,TabICL RAD-C,Brier,-0.002153516918833004,-0.0029299308117167098,-0.0014267225619198963,False
+rolling,2.0,delta,final system,TabICL RAD-C,Sens@Spec90,0.020541989608044542,-0.01390604610175908,0.04964461702527743,False
+rolling,2.0,delta,final system,TabICL RAD-C,Accuracy,0.0032044065692126145,0.0009615006992299835,0.005598019507422832,False
+rolling,2.0,delta,final system,TabICL RAD-C,Balanced acc.,0.016009018181269874,0.00589571597371831,0.027522228571584033,False
+rolling,2.0,delta,final system,TabICL RAD-C,Sensitivity,0.030157001476466327,0.010737349039127595,0.05296286305612362,False
+rolling,2.0,delta,final system,TabICL RAD-C,Specificity,0.0018610348860728099,-7.353527343760823e-05,0.004065163500709209,False
+rolling,2.0,delta,final system,TabICL RAD-C,PPV,0.034714988437670846,0.004368350509099429,0.06669397039980511,False
+rolling,2.0,delta,final system,TabICL RAD-C,NPV,0.0018302057252239656,0.0003167448272061391,0.003411954903379402,False
+rolling,2.0,delta,final system,TabICL RAD-C,F1,0.030263008389378176,0.009533009801490234,0.05260326770423215,False
+rolling,2.0,delta,final system,TabICL RAD-C,MCC,0.0331808344984858,0.011174697583092813,0.05731092546590283,False
+rolling,6.0,value,final system,,AUROC,0.9309180463878564,,,
+rolling,6.0,value,final system,,AUPRC,0.49790374487353795,,,
+rolling,6.0,value,final system,,Brier,0.019602811729056188,,,
+rolling,6.0,value,final system,,Sens@Spec90,0.7927195450054016,,,
+rolling,6.0,value,final system,,Accuracy,0.9711613228716761,,,
+rolling,6.0,value,final system,,Balanced acc.,0.6732079555807955,,,
+rolling,6.0,value,final system,,Sensitivity,0.355950006283727,,,
+rolling,6.0,value,final system,,Specificity,0.9904659048778638,,,
+rolling,6.0,value,final system,,PPV,0.5318723684815057,,,
+rolling,6.0,value,final system,,NPV,0.9787676656039657,,,
+rolling,6.0,value,final system,,F1,0.42254660352950196,,,
+rolling,6.0,value,final system,,MCC,0.41844980803982673,,,
+rolling,6.0,value,RAD system (published),,AUROC,0.9300922999778676,,,
+rolling,6.0,value,RAD system (published),,AUPRC,0.48152032686516694,,,
+rolling,6.0,value,RAD system (published),,Brier,0.020227832788212205,,,
+rolling,6.0,value,RAD system (published),,Sens@Spec90,0.7939035679495223,,,
+rolling,6.0,value,RAD system (published),,Accuracy,0.9705828947016834,,,
+rolling,6.0,value,RAD system (published),,Balanced acc.,0.6674720302403704,,,
+rolling,6.0,value,RAD system (published),,Sensitivity,0.3447862002012217,,,
+rolling,6.0,value,RAD system (published),,Specificity,0.990157860279519,,,
+rolling,6.0,value,RAD system (published),,PPV,0.5139203436403198,,,
+rolling,6.0,value,RAD system (published),,NPV,0.9784640442661141,,,
+rolling,6.0,value,RAD system (published),,F1,0.4088453562247174,,,
+rolling,6.0,value,RAD system (published),,MCC,0.40401761099750094,,,
+rolling,6.0,value,SeqLab network (cond),,AUROC,0.9364234041356904,,,
+rolling,6.0,value,SeqLab network (cond),,AUPRC,0.47604968252508256,,,
+rolling,6.0,value,SeqLab network (cond),,Brier,0.02034178794826503,,,
+rolling,6.0,value,SeqLab network (cond),,Sens@Spec90,0.8100474787436918,,,
+rolling,6.0,value,SeqLab network (cond),,Accuracy,0.9704823159575279,,,
+rolling,6.0,value,SeqLab network (cond),,Balanced acc.,0.6659116830580349,,,
+rolling,6.0,value,SeqLab network (cond),,Sensitivity,0.3417249337135175,,,
+rolling,6.0,value,SeqLab network (cond),,Specificity,0.990098432402552,,,
+rolling,6.0,value,SeqLab network (cond),,PPV,0.5027881419595636,,,
+rolling,6.0,value,SeqLab network (cond),,NPV,0.9784063998235052,,,
+rolling,6.0,value,SeqLab network (cond),,F1,0.4038482155454178,,,
+rolling,6.0,value,SeqLab network (cond),,MCC,0.39797843512702014,,,
+rolling,6.0,value,direct ensemble,,AUROC,0.9037723199201194,,,
+rolling,6.0,value,direct ensemble,,AUPRC,0.4500215615845129,,,
+rolling,6.0,value,direct ensemble,,Brier,0.021832861523944286,,,
+rolling,6.0,value,direct ensemble,,Sens@Spec90,0.7245580577988737,,,
+rolling,6.0,value,direct ensemble,,Accuracy,0.9694255618193033,,,
+rolling,6.0,value,direct ensemble,,Balanced acc.,0.6655811486413943,,,
+rolling,6.0,value,direct ensemble,,Sensitivity,0.3416491681072719,,,
+rolling,6.0,value,direct ensemble,,Specificity,0.9895131291755167,,,
+rolling,6.0,value,direct ensemble,,PPV,0.5115233440063731,,,
+rolling,6.0,value,direct ensemble,,NPV,0.9778339147113609,,,
+rolling,6.0,value,direct ensemble,,F1,0.4058316826863062,,,
+rolling,6.0,value,direct ensemble,,MCC,0.4004809979440403,,,
+rolling,6.0,value,HGB direct,,AUROC,0.8086115138490956,,,
+rolling,6.0,value,HGB direct,,AUPRC,0.3318585958072624,,,
+rolling,6.0,value,HGB direct,,Brier,0.02663566778316477,,,
+rolling,6.0,value,HGB direct,,Sens@Spec90,0.6047511618827106,,,
+rolling,6.0,value,HGB direct,,Accuracy,0.9650367519375253,,,
+rolling,6.0,value,HGB direct,,Balanced acc.,0.6277446115356392,,,
+rolling,6.0,value,HGB direct,,Sensitivity,0.26834010855497836,,,
+rolling,6.0,value,HGB direct,,Specificity,0.9871491145162999,,,
+rolling,6.0,value,HGB direct,,PPV,0.38330610614513067,,,
+rolling,6.0,value,HGB direct,,NPV,0.9755111480414493,,,
+rolling,6.0,value,HGB direct,,F1,0.3134623299058031,,,
+rolling,6.0,value,HGB direct,,MCC,0.3016549816026342,,,
+rolling,6.0,value,LightGBM direct,,AUROC,0.8329407193823662,,,
+rolling,6.0,value,LightGBM direct,,AUPRC,0.36835248227071177,,,
+rolling,6.0,value,LightGBM direct,,Brier,0.024879747589794377,,,
+rolling,6.0,value,LightGBM direct,,Sens@Spec90,0.6389420567556986,,,
+rolling,6.0,value,LightGBM direct,,Accuracy,0.9660513278604749,,,
+rolling,6.0,value,LightGBM direct,,Balanced acc.,0.6356023912208625,,,
+rolling,6.0,value,LightGBM direct,,Sensitivity,0.2834897601455985,,,
+rolling,6.0,value,LightGBM direct,,Specificity,0.9877150222961265,,,
+rolling,6.0,value,LightGBM direct,,PPV,0.4105123546802462,,,
+rolling,6.0,value,LightGBM direct,,NPV,0.9760643788279024,,,
+rolling,6.0,value,LightGBM direct,,F1,0.3328480483020162,,,
+rolling,6.0,value,LightGBM direct,,MCC,0.32248647032129907,,,
+rolling,6.0,value,XGBoost direct,,AUROC,0.8346981654183057,,,
+rolling,6.0,value,XGBoost direct,,AUPRC,0.3725978735351383,,,
+rolling,6.0,value,XGBoost direct,,Brier,0.025141924161076,,,
+rolling,6.0,value,XGBoost direct,,Sens@Spec90,0.6060357023639257,,,
+rolling,6.0,value,XGBoost direct,,Accuracy,0.9663046121691713,,,
+rolling,6.0,value,XGBoost direct,,Balanced acc.,0.6336802749158058,,,
+rolling,6.0,value,XGBoost direct,,Sensitivity,0.27951030543099126,,,
+rolling,6.0,value,XGBoost direct,,Specificity,0.9878502444006204,,,
+rolling,6.0,value,XGBoost direct,,PPV,0.40164362062444137,,,
+rolling,6.0,value,XGBoost direct,,NPV,0.9761969209182482,,,
+rolling,6.0,value,XGBoost direct,,F1,0.32722931365779434,,,
+rolling,6.0,value,XGBoost direct,,MCC,0.3166093663041227,,,
+rolling,6.0,value,CatBoost direct,,AUROC,0.8224895966333525,,,
+rolling,6.0,value,CatBoost direct,,AUPRC,0.37273238643718276,,,
+rolling,6.0,value,CatBoost direct,,Brier,0.02374922203459381,,,
+rolling,6.0,value,CatBoost direct,,Sens@Spec90,0.5473234143662821,,,
+rolling,6.0,value,CatBoost direct,,Accuracy,0.9665792708908754,,,
+rolling,6.0,value,CatBoost direct,,Balanced acc.,0.638551122332266,,,
+rolling,6.0,value,CatBoost direct,,Sensitivity,0.28911254049961205,,,
+rolling,6.0,value,CatBoost direct,,Specificity,0.9879897041649199,,,
+rolling,6.0,value,CatBoost direct,,PPV,0.41764358220889375,,,
+rolling,6.0,value,CatBoost direct,,NPV,0.9763355460280579,,,
+rolling,6.0,value,CatBoost direct,,F1,0.33919549775825025,,,
+rolling,6.0,value,CatBoost direct,,MCC,0.3291277508939298,,,
+rolling,6.0,value,RealMLP direct,,AUROC,0.7419274654375991,,,
+rolling,6.0,value,RealMLP direct,,AUPRC,0.34840026569204435,,,
+rolling,6.0,value,RealMLP direct,,Brier,0.027260521169924928,,,
+rolling,6.0,value,RealMLP direct,,Sens@Spec90,0.5431411763374373,,,
+rolling,6.0,value,RealMLP direct,,Accuracy,0.9662869745954529,,,
+rolling,6.0,value,RealMLP direct,,Balanced acc.,0.6420965101809754,,,
+rolling,6.0,value,RealMLP direct,,Sensitivity,0.29635842532237416,,,
+rolling,6.0,value,RealMLP direct,,Specificity,0.9878345950395766,,,
+rolling,6.0,value,RealMLP direct,,PPV,0.4365704953439556,,,
+rolling,6.0,value,RealMLP direct,,NPV,0.9761851304580317,,,
+rolling,6.0,value,RealMLP direct,,F1,0.34962520354027987,,,
+rolling,6.0,value,RealMLP direct,,MCC,0.34065036867131265,,,
+rolling,6.0,value,TabM direct,,AUROC,0.6728721783216015,,,
+rolling,6.0,value,TabM direct,,AUPRC,0.2728506023491612,,,
+rolling,6.0,value,TabM direct,,Brier,0.02740905754097232,,,
+rolling,6.0,value,TabM direct,,Sens@Spec90,0.41650963109224176,,,
+rolling,6.0,value,TabM direct,,Accuracy,0.9638683389018223,,,
+rolling,6.0,value,TabM direct,,Balanced acc.,0.6035193884726975,,,
+rolling,6.0,value,TabM direct,,Sensitivity,0.22043905562640412,,,
+rolling,6.0,value,TabM direct,,Specificity,0.9865997213189908,,,
+rolling,6.0,value,TabM direct,,PPV,0.29904642463630954,,,
+rolling,6.0,value,TabM direct,,NPV,0.9749632221472379,,,
+rolling,6.0,value,TabM direct,,F1,0.252351400057547,,,
+rolling,6.0,value,TabM direct,,MCC,0.23751526494714129,,,
+rolling,6.0,value,TabICL direct,,AUROC,0.876102874208844,,,
+rolling,6.0,value,TabICL direct,,AUPRC,0.3951666837536562,,,
+rolling,6.0,value,TabICL direct,,Brier,0.023315069738256658,,,
+rolling,6.0,value,TabICL direct,,Sens@Spec90,0.6799359547251909,,,
+rolling,6.0,value,TabICL direct,,Accuracy,0.966694858523561,,,
+rolling,6.0,value,TabICL direct,,Balanced acc.,0.6368867699057409,,,
+rolling,6.0,value,TabICL direct,,Sensitivity,0.28571747877121695,,,
+rolling,6.0,value,TabICL direct,,Specificity,0.9880560610402648,,,
+rolling,6.0,value,TabICL direct,,PPV,0.41196215062421665,,,
+rolling,6.0,value,TabICL direct,,NPV,0.9764000262186293,,,
+rolling,6.0,value,TabICL direct,,F1,0.33492604249395347,,,
+rolling,6.0,value,TabICL direct,,MCC,0.3247907976848751,,,
+rolling,6.0,value,HGB RAD-C,,AUROC,0.8982936844870331,,,
+rolling,6.0,value,HGB RAD-C,,AUPRC,0.4233619792895586,,,
+rolling,6.0,value,HGB RAD-C,,Brier,0.022855588751681827,,,
+rolling,6.0,value,HGB RAD-C,,Sens@Spec90,0.7473677374839226,,,
+rolling,6.0,value,HGB RAD-C,,Accuracy,0.9678150311973136,,,
+rolling,6.0,value,HGB RAD-C,,Balanced acc.,0.648774057696131,,,
+rolling,6.0,value,HGB RAD-C,,Sensitivity,0.30888799040958426,,,
+rolling,6.0,value,HGB RAD-C,,Specificity,0.9886601249826777,,,
+rolling,6.0,value,HGB RAD-C,,PPV,0.44969961425176025,,,
+rolling,6.0,value,HGB RAD-C,,NPV,0.9769934470030757,,,
+rolling,6.0,value,HGB RAD-C,,F1,0.36355231462948795,,,
+rolling,6.0,value,HGB RAD-C,,MCC,0.35492672920174995,,,
+rolling,6.0,value,LightGBM RAD-C,,AUROC,0.9035181120091136,,,
+rolling,6.0,value,LightGBM RAD-C,,AUPRC,0.4320287242589396,,,
+rolling,6.0,value,LightGBM RAD-C,,Brier,0.021936822169105506,,,
+rolling,6.0,value,LightGBM RAD-C,,Sens@Spec90,0.7186371992188393,,,
+rolling,6.0,value,LightGBM RAD-C,,Accuracy,0.9685840836379126,,,
+rolling,6.0,value,LightGBM RAD-C,,Balanced acc.,0.6520262948720511,,,
+rolling,6.0,value,LightGBM RAD-C,,Sensitivity,0.31497541502255816,,,
+rolling,6.0,value,LightGBM RAD-C,,Specificity,0.9890771747215442,,,
+rolling,6.0,value,LightGBM RAD-C,,PPV,0.4593082536196902,,,
+rolling,6.0,value,LightGBM RAD-C,,NPV,0.9774021841990645,,,
+rolling,6.0,value,LightGBM RAD-C,,F1,0.3709444194428821,,,
+rolling,6.0,value,LightGBM RAD-C,,MCC,0.3629632210055505,,,
+rolling,6.0,value,XGBoost RAD-C,,AUROC,0.8854256883886115,,,
+rolling,6.0,value,XGBoost RAD-C,,AUPRC,0.42108353599477993,,,
+rolling,6.0,value,XGBoost RAD-C,,Brier,0.021896911875703595,,,
+rolling,6.0,value,XGBoost RAD-C,,Sens@Spec90,0.6901092058416438,,,
+rolling,6.0,value,XGBoost RAD-C,,Accuracy,0.9682909418906879,,,
+rolling,6.0,value,XGBoost RAD-C,,Balanced acc.,0.6448841938631638,,,
+rolling,6.0,value,XGBoost RAD-C,,Sensitivity,0.3008404668430578,,,
+rolling,6.0,value,XGBoost RAD-C,,Specificity,0.9889279208832699,,,
+rolling,6.0,value,XGBoost RAD-C,,PPV,0.4352729155297946,,,
+rolling,6.0,value,XGBoost RAD-C,,NPV,0.9772542073775966,,,
+rolling,6.0,value,XGBoost RAD-C,,F1,0.35315721819673235,,,
+rolling,6.0,value,XGBoost RAD-C,,MCC,0.344383553061999,,,
+rolling,6.0,value,CatBoost RAD-C,,AUROC,0.8911910064641272,,,
+rolling,6.0,value,CatBoost RAD-C,,AUPRC,0.4336672353935737,,,
+rolling,6.0,value,CatBoost RAD-C,,Brier,0.02152988686159915,,,
+rolling,6.0,value,CatBoost RAD-C,,Sens@Spec90,0.7180996158435962,,,
+rolling,6.0,value,CatBoost RAD-C,,Accuracy,0.9692206626300849,,,
+rolling,6.0,value,CatBoost RAD-C,,Balanced acc.,0.651056302423601,,,
+rolling,6.0,value,CatBoost RAD-C,,Sensitivity,0.3126789613450846,,,
+rolling,6.0,value,CatBoost RAD-C,,Specificity,0.9894336435021175,,,
+rolling,6.0,value,CatBoost RAD-C,,PPV,0.4619520680274521,,,
+rolling,6.0,value,CatBoost RAD-C,,NPV,0.9777502747185322,,,
+rolling,6.0,value,CatBoost RAD-C,,F1,0.3692819958304165,,,
+rolling,6.0,value,CatBoost RAD-C,,MCC,0.36250561331507797,,,
+rolling,6.0,value,RealMLP RAD-C,,AUROC,0.8033365746606814,,,
+rolling,6.0,value,RealMLP RAD-C,,AUPRC,0.36712929139299616,,,
+rolling,6.0,value,RealMLP RAD-C,,Brier,0.024780828019433394,,,
+rolling,6.0,value,RealMLP RAD-C,,Sens@Spec90,0.6106612678630802,,,
+rolling,6.0,value,RealMLP RAD-C,,Accuracy,0.9668586138321172,,,
+rolling,6.0,value,RealMLP RAD-C,,Balanced acc.,0.6347219261787621,,,
+rolling,6.0,value,RealMLP RAD-C,,Sensitivity,0.2812903940294753,,,
+rolling,6.0,value,RealMLP RAD-C,,Specificity,0.9881534583280489,,,
+rolling,6.0,value,RealMLP RAD-C,,PPV,0.4128581061474566,,,
+rolling,6.0,value,RealMLP RAD-C,,NPV,0.9764936266228675,,,
+rolling,6.0,value,RealMLP RAD-C,,F1,0.3311773892690214,,,
+rolling,6.0,value,RealMLP RAD-C,,MCC,0.3220621179428282,,,
+rolling,6.0,value,TabM RAD-C,,AUROC,0.8099312447153633,,,
+rolling,6.0,value,TabM RAD-C,,AUPRC,0.36251244155685264,,,
+rolling,6.0,value,TabM RAD-C,,Brier,0.024641860267135888,,,
+rolling,6.0,value,TabM RAD-C,,Sens@Spec90,0.6494093163615456,,,
+rolling,6.0,value,TabM RAD-C,,Accuracy,0.9675776684482553,,,
+rolling,6.0,value,TabM RAD-C,,Balanced acc.,0.638633536217248,,,
+rolling,6.0,value,TabM RAD-C,,Sensitivity,0.28870472833242233,,,
+rolling,6.0,value,TabM RAD-C,,Specificity,0.988562344102074,,,
+rolling,6.0,value,TabM RAD-C,,PPV,0.4135453598210928,,,
+rolling,6.0,value,TabM RAD-C,,NPV,0.9768936125974053,,,
+rolling,6.0,value,TabM RAD-C,,F1,0.33761653255109914,,,
+rolling,6.0,value,TabM RAD-C,,MCC,0.3277843878837198,,,
+rolling,6.0,value,TabICL RAD-C,,AUROC,0.9062561970211102,,,
+rolling,6.0,value,TabICL RAD-C,,AUPRC,0.4375918032178192,,,
+rolling,6.0,value,TabICL RAD-C,,Brier,0.02174649188000326,,,
+rolling,6.0,value,TabICL RAD-C,,Sens@Spec90,0.7430880779429434,,,
+rolling,6.0,value,TabICL RAD-C,,Accuracy,0.9684517130688183,,,
+rolling,6.0,value,TabICL RAD-C,,Balanced acc.,0.6512810844079476,,,
+rolling,6.0,value,TabICL RAD-C,,Sensitivity,0.31356345549881776,,,
+rolling,6.0,value,TabICL RAD-C,,Specificity,0.9889987133170774,,,
+rolling,6.0,value,TabICL RAD-C,,PPV,0.45767904404672993,,,
+rolling,6.0,value,TabICL RAD-C,,NPV,0.9773265122031338,,,
+rolling,6.0,value,TabICL RAD-C,,F1,0.3693694755087787,,,
+rolling,6.0,value,TabICL RAD-C,,MCC,0.3613344239742715,,,
+rolling,6.0,delta,final system,RAD system (published),AUROC,0.0008257464099887812,-0.003635304900462352,0.004574827630405565,False
+rolling,6.0,delta,final system,RAD system (published),AUPRC,0.01638341800837101,0.008250339853091445,0.02669693001484149,False
+rolling,6.0,delta,final system,RAD system (published),Brier,-0.0006250210591560168,-0.0008786954380640454,-0.0003731098253042669,False
+rolling,6.0,delta,final system,RAD system (published),Sens@Spec90,-0.0011840229441206773,-0.019197297635820537,0.022198969054625473,False
+rolling,6.0,delta,final system,RAD system (published),Accuracy,0.0005784281699927618,-0.0003658567540478247,0.0015907000185350017,False
+rolling,6.0,delta,final system,RAD system (published),Balanced acc.,0.005735925340425108,-5.486939717691809e-05,0.013319945574158304,False
+rolling,6.0,delta,final system,RAD system (published),Sensitivity,0.011163806082505334,-0.0005581490223131049,0.02644123595765073,False
+rolling,6.0,delta,final system,RAD system (published),Specificity,0.00030804459834476994,-0.0005620007986019859,0.001137955974303936,False
+rolling,6.0,delta,final system,RAD system (published),PPV,0.017952024841185854,-0.013583654033334721,0.05010448018932116,False
+rolling,6.0,delta,final system,RAD system (published),NPV,0.0003036213378515562,-0.00026602158761897254,0.0009238067652397513,False
+rolling,6.0,delta,final system,RAD system (published),F1,0.013701247304784558,0.00030874499555677196,0.030914993737929317,False
+rolling,6.0,delta,final system,RAD system (published),MCC,0.01443219704232579,-0.0018735886018402688,0.03355953871947038,False
+rolling,6.0,delta,final system,SeqLab network (cond),AUROC,-0.0055053577478340054,-0.013019013820123552,0.0010192518645170108,False
+rolling,6.0,delta,final system,SeqLab network (cond),AUPRC,0.021854062348455383,0.001899947954800102,0.04077435113080449,False
+rolling,6.0,delta,final system,SeqLab network (cond),Brier,-0.0007389762192088409,-0.0011702422149310273,-0.0003135215371794885,False
+rolling,6.0,delta,final system,SeqLab network (cond),Sens@Spec90,-0.017327933738290113,-0.05104224643925909,0.01971338311041209,False
+rolling,6.0,delta,final system,SeqLab network (cond),Accuracy,0.0006790069141482391,-0.0005920937094735596,0.001911354491567901,False
+rolling,6.0,delta,final system,SeqLab network (cond),Balanced acc.,0.00729627252276055,-0.009646050425730872,0.024878307918732454,False
+rolling,6.0,delta,final system,SeqLab network (cond),Sensitivity,0.014225072570209552,-0.01944335601474421,0.049471811010465265,False
+rolling,6.0,delta,final system,SeqLab network (cond),Specificity,0.00036747247531176974,-0.0006559594315161038,0.0014144354476554098,False
+rolling,6.0,delta,final system,SeqLab network (cond),PPV,0.02908422652194209,-0.028451408307545997,0.08648431729775706,False
+rolling,6.0,delta,final system,SeqLab network (cond),NPV,0.00036126578046047353,-0.0005676801440107071,0.001206494998166174,False
+rolling,6.0,delta,final system,SeqLab network (cond),F1,0.018698387984084186,-0.020486306236543662,0.05804811129480993,False
+rolling,6.0,delta,final system,SeqLab network (cond),MCC,0.020471372912806596,-0.01974896939138688,0.06108038132725188,False
+rolling,6.0,delta,final system,direct ensemble,AUROC,0.02714572646773694,0.016790158355279906,0.040285233850456965,False
+rolling,6.0,delta,final system,direct ensemble,AUPRC,0.04788218328902505,0.028471542096978386,0.07025343745840401,False
+rolling,6.0,delta,final system,direct ensemble,Brier,-0.0022300497948880976,-0.0027427324927158376,-0.0017399848481128176,False
+rolling,6.0,delta,final system,direct ensemble,Sens@Spec90,0.06816148720652793,0.034321049522517515,0.1120725999317037,False
+rolling,6.0,delta,final system,direct ensemble,Accuracy,0.0017357610523728306,0.0002586564343530051,0.003162030985597312,False
+rolling,6.0,delta,final system,direct ensemble,Balanced acc.,0.0076268069394012095,-0.006051823422343658,0.024376617908208605,False
+rolling,6.0,delta,final system,direct ensemble,Sensitivity,0.01430083817645511,-0.013035682114824596,0.04796866404163355,False
+rolling,6.0,delta,final system,direct ensemble,Specificity,0.0009527757023470862,-0.00023949723535354736,0.00207495584994217,False
+rolling,6.0,delta,final system,direct ensemble,PPV,0.020349024475132538,-0.04778735936611007,0.07867007729946733,False
+rolling,6.0,delta,final system,direct ensemble,NPV,0.0009337508926047233,-3.8914467741241186e-05,0.0019173100756717297,False
+rolling,6.0,delta,final system,direct ensemble,F1,0.016714920843195757,-0.015891047886224342,0.05573103988001394,False
+rolling,6.0,delta,final system,direct ensemble,MCC,0.017968810095786436,-0.019062981522299,0.0580795296398997,False
+rolling,6.0,delta,final system,HGB direct,AUROC,0.12230653253876078,0.09604267671256413,0.15464825127746296,False
+rolling,6.0,delta,final system,HGB direct,AUPRC,0.16604514906627554,0.1327095732038056,0.20403453627975715,False
+rolling,6.0,delta,final system,HGB direct,Brier,-0.007032856054108583,-0.008687142238422426,-0.005490940716211354,False
+rolling,6.0,delta,final system,HGB direct,Sens@Spec90,0.18796838312269104,0.13267148952954297,0.246143659552718,False
+rolling,6.0,delta,final system,HGB direct,Accuracy,0.006124570934150864,0.004146091255984627,0.008069072786463462,False
+rolling,6.0,delta,final system,HGB direct,Balanced acc.,0.045463344045156284,0.027478302442323535,0.06387587224357011,False
+rolling,6.0,delta,final system,HGB direct,Sensitivity,0.08760989772874866,0.051843955856104476,0.12466099848943901,False
+rolling,6.0,delta,final system,HGB direct,Specificity,0.0033167903615638483,0.001632277482710262,0.004959610156210772,False
+rolling,6.0,delta,final system,HGB direct,PPV,0.148566262336375,0.08946665093484685,0.21359602499489314,False
+rolling,6.0,delta,final system,HGB direct,NPV,0.0032565175625163256,0.0019739916258328825,0.004506814665021649,False
+rolling,6.0,delta,final system,HGB direct,F1,0.10908427362369888,0.07037868867920226,0.1495584833028794,False
+rolling,6.0,delta,final system,HGB direct,MCC,0.11679482643719252,0.07629402633847934,0.16010519005385127,False
+rolling,6.0,delta,final system,LightGBM direct,AUROC,0.09797732700549011,0.07442054233558029,0.1290423493296902,False
+rolling,6.0,delta,final system,LightGBM direct,AUPRC,0.12955126260282618,0.09541615887946604,0.16748844801217483,False
+rolling,6.0,delta,final system,LightGBM direct,Brier,-0.005276935860738189,-0.006285468063574366,-0.004199106449576277,False
+rolling,6.0,delta,final system,LightGBM direct,Sens@Spec90,0.15377748824970305,0.10217860758759086,0.21490050579378683,False
+rolling,6.0,delta,final system,LightGBM direct,Accuracy,0.0051099950112012404,0.0032821532054968213,0.0068681055045990815,False
+rolling,6.0,delta,final system,LightGBM direct,Balanced acc.,0.03760556435993301,0.019105601498323667,0.056960288103072215,False
+rolling,6.0,delta,final system,LightGBM direct,Sensitivity,0.07246024613812851,0.03463768878162206,0.11087965178997668,False
+rolling,6.0,delta,final system,LightGBM direct,Specificity,0.0027508825817372795,0.0012319777326686627,0.004370290801339457,False
+rolling,6.0,delta,final system,LightGBM direct,PPV,0.12136001380125944,0.06212785116988444,0.18400653482204157,False
+rolling,6.0,delta,final system,LightGBM direct,NPV,0.0027032867760632406,0.0014083687182114835,0.003924775969505889,False
+rolling,6.0,delta,final system,LightGBM direct,F1,0.08969855522748577,0.049490324599532155,0.13170491418751953,False
+rolling,6.0,delta,final system,LightGBM direct,MCC,0.09596333771852766,0.05549723468549779,0.1402477671423929,False
+rolling,6.0,delta,final system,XGBoost direct,AUROC,0.0962198809695507,0.07507065769860748,0.11994432227604226,False
+rolling,6.0,delta,final system,XGBoost direct,AUPRC,0.12530587133839965,0.0931885261746274,0.1646805073130324,False
+rolling,6.0,delta,final system,XGBoost direct,Brier,-0.005539112432019811,-0.006820867679523133,-0.004291955581604063,False
+rolling,6.0,delta,final system,XGBoost direct,Sens@Spec90,0.18668384264147597,0.12892759849168192,0.24256713634656255,False
+rolling,6.0,delta,final system,XGBoost direct,Accuracy,0.004856710702504818,0.003093714707462042,0.006604722373446017,False
+rolling,6.0,delta,final system,XGBoost direct,Balanced acc.,0.039527680664989684,0.024159902553897616,0.05803244542945502,False
+rolling,6.0,delta,final system,XGBoost direct,Sensitivity,0.07643970085273577,0.04551017626782351,0.11354340570274937,False
+rolling,6.0,delta,final system,XGBoost direct,Specificity,0.0026156604772433756,0.0011033227389816824,0.004149644261855775,False
+rolling,6.0,delta,final system,XGBoost direct,PPV,0.1302287478570643,0.07462031010162713,0.19048267812320474,False
+rolling,6.0,delta,final system,XGBoost direct,NPV,0.0025707446857174965,0.0014574461177880944,0.0036380818371634983,False
+rolling,6.0,delta,final system,XGBoost direct,F1,0.09531728987170762,0.059017237963041876,0.13533278971542745,False
+rolling,6.0,delta,final system,XGBoost direct,MCC,0.10184044173570406,0.06340740810949076,0.14481478013864862,False
+rolling,6.0,delta,final system,CatBoost direct,AUROC,0.10842844975450383,0.08065779106244143,0.13671500319181784,False
+rolling,6.0,delta,final system,CatBoost direct,AUPRC,0.12517135843635518,0.09364833522176177,0.162926475354199,False
+rolling,6.0,delta,final system,CatBoost direct,Brier,-0.004146410305537623,-0.004962076324419867,-0.003264866663223116,False
+rolling,6.0,delta,final system,CatBoost direct,Sens@Spec90,0.24539613063911958,0.19015704249763213,0.3032953398941834,False
+rolling,6.0,delta,final system,CatBoost direct,Accuracy,0.00458205198080075,0.0027214186546512835,0.006472888769787104,False
+rolling,6.0,delta,final system,CatBoost direct,Balanced acc.,0.03465683324852953,0.01735042015971896,0.05315409132210608,False
+rolling,6.0,delta,final system,CatBoost direct,Sensitivity,0.06683746578411498,0.032430951206941894,0.10423416850699493,False
+rolling,6.0,delta,final system,CatBoost direct,Specificity,0.0024762007129438546,0.0009722896496898309,0.004001071813542166,False
+rolling,6.0,delta,final system,CatBoost direct,PPV,0.1142287862726119,0.05354462631882035,0.173438209939929,False
+rolling,6.0,delta,final system,CatBoost direct,NPV,0.0024321195759077208,0.0011875832957109894,0.0036572950344013586,False
+rolling,6.0,delta,final system,CatBoost direct,F1,0.08335110577125171,0.04389204095486286,0.1234958581825727,False
+rolling,6.0,delta,final system,CatBoost direct,MCC,0.08932205714589692,0.04846303086239122,0.13049255365052317,False
+rolling,6.0,delta,final system,RealMLP direct,AUROC,0.18899058095025723,0.15157520378283962,0.22776038116035457,False
+rolling,6.0,delta,final system,RealMLP direct,AUPRC,0.1495034791814936,0.11132881083905344,0.18790041577603037,False
+rolling,6.0,delta,final system,RealMLP direct,Brier,-0.0076577094408687395,-0.008810448028777746,-0.006534773447923404,False
+rolling,6.0,delta,final system,RealMLP direct,Sens@Spec90,0.24957836866796435,0.1814359580487207,0.3133069608463126,False
+rolling,6.0,delta,final system,RealMLP direct,Accuracy,0.004874348276223239,0.002973504827710119,0.006831054737266697,False
+rolling,6.0,delta,final system,RealMLP direct,Balanced acc.,0.031111445399820137,0.01305569285033045,0.04880615776486552,False
+rolling,6.0,delta,final system,RealMLP direct,Sensitivity,0.059591580961352864,0.023311855555517173,0.09544440003893619,False
+rolling,6.0,delta,final system,RealMLP direct,Specificity,0.002631309838287188,0.0010262256946685672,0.004211118012075718,False
+rolling,6.0,delta,final system,RealMLP direct,PPV,0.09530187313755006,0.023408039944810742,0.1628812644168683,False
+rolling,6.0,delta,final system,RealMLP direct,NPV,0.002582535145933984,0.0012538390601109061,0.003885026377756201,False
+rolling,6.0,delta,final system,RealMLP direct,F1,0.07292139998922209,0.028838659042643565,0.1134838028607986,False
+rolling,6.0,delta,final system,RealMLP direct,MCC,0.07779943936851408,0.031143977535321905,0.12204698782035732,False
+rolling,6.0,delta,final system,TabM direct,AUROC,0.25804586806625485,0.22781236903511348,0.28589955267984607,False
+rolling,6.0,delta,final system,TabM direct,AUPRC,0.22505314252437675,0.18502165386522956,0.271820305830009,False
+rolling,6.0,delta,final system,TabM direct,Brier,-0.007806245811916131,-0.009882238009786687,-0.005880191169093783,False
+rolling,6.0,delta,final system,TabM direct,Sens@Spec90,0.3762099139131599,0.3099993335529489,0.43566984829415867,False
+rolling,6.0,delta,final system,TabM direct,Accuracy,0.0072929839698537835,0.005052890411520433,0.009652363017731308,False
+rolling,6.0,delta,final system,TabM direct,Balanced acc.,0.06968856710809801,0.04857028468732465,0.08947245320107788,False
+rolling,6.0,delta,final system,TabM direct,Sensitivity,0.1355109506573229,0.09306598244030474,0.17452326240831592,False
+rolling,6.0,delta,final system,TabM direct,Specificity,0.0038661835588730264,0.00204446828682012,0.005684952220785602,False
+rolling,6.0,delta,final system,TabM direct,PPV,0.23282594384519611,0.17393518632590588,0.28860344935503973,False
+rolling,6.0,delta,final system,TabM direct,NPV,0.003804443456727813,0.002215723895021765,0.005392271415695152,False
+rolling,6.0,delta,final system,TabM direct,F1,0.17019520347195494,0.12414898386550811,0.2084436486198288,False
+rolling,6.0,delta,final system,TabM direct,MCC,0.18093454309268545,0.13532709329343295,0.21923259089178995,False
+rolling,6.0,delta,final system,TabICL direct,AUROC,0.05481517217901233,0.034829161175121415,0.07901456386653534,True
+rolling,6.0,delta,final system,TabICL direct,AUPRC,0.10273706111988173,0.07337997429451333,0.13454516362061333,True
+rolling,6.0,delta,final system,TabICL direct,Brier,-0.0037122580092004698,-0.004519112341476806,-0.0029025404803707643,True
+rolling,6.0,delta,final system,TabICL direct,Sens@Spec90,0.11278359028021079,0.04977593172956628,0.17704302304731384,True
+rolling,6.0,delta,final system,TabICL direct,Accuracy,0.004466464348115151,0.0026619090226545823,0.006245406264501701,True
+rolling,6.0,delta,final system,TabICL direct,Balanced acc.,0.0363211856750546,0.019488508923786944,0.05470200521326661,True
+rolling,6.0,delta,final system,TabICL direct,Sensitivity,0.07023252751251008,0.03642147117842878,0.10733698276987401,True
+rolling,6.0,delta,final system,TabICL direct,Specificity,0.0024098438375990128,0.0009241653780339254,0.003955611358319982,True
+rolling,6.0,delta,final system,TabICL direct,PPV,0.119910217857289,0.06066989276867018,0.17980108955743815,True
+rolling,6.0,delta,final system,TabICL direct,NPV,0.002367639385336351,0.0011485748876209289,0.0035579940792551694,True
+rolling,6.0,delta,final system,TabICL direct,F1,0.0876205610355485,0.047851902094840734,0.12694204066871853,True
+rolling,6.0,delta,final system,TabICL direct,MCC,0.09365901035495161,0.05273906565026205,0.1341661488917021,True
+rolling,6.0,delta,final system,HGB RAD-C,AUROC,0.032624361900823295,0.015460653669821595,0.0538210249347275,False
+rolling,6.0,delta,final system,HGB RAD-C,AUPRC,0.07454176558397935,0.04559217003126703,0.10884619295091166,False
+rolling,6.0,delta,final system,HGB RAD-C,Brier,-0.0032527770226256393,-0.004063019719512573,-0.0023666798575037993,False
+rolling,6.0,delta,final system,HGB RAD-C,Sens@Spec90,0.04535180752147905,0.0021551906537215955,0.10250482468351477,False
+rolling,6.0,delta,final system,HGB RAD-C,Accuracy,0.0033462916743625115,0.0016416313838702513,0.005041068411973044,False
+rolling,6.0,delta,final system,HGB RAD-C,Balanced acc.,0.024433897884664546,0.007462383324145594,0.04164943631947976,False
+rolling,6.0,delta,final system,HGB RAD-C,Sensitivity,0.04706201587414277,0.012754861712718692,0.08134611789884576,False
+rolling,6.0,delta,final system,HGB RAD-C,Specificity,0.0018057798951860438,0.0003209657992662124,0.003187472502944885,False
+rolling,6.0,delta,final system,HGB RAD-C,PPV,0.0821727542297454,0.02796596743336811,0.13672719857762533,False
+rolling,6.0,delta,final system,HGB RAD-C,NPV,0.0017742186008899985,0.0006677547357030495,0.0028681415741000993,False
+rolling,6.0,delta,final system,HGB RAD-C,F1,0.058994288900014014,0.02136360868501397,0.09473329709474192,False
+rolling,6.0,delta,final system,HGB RAD-C,MCC,0.06352307883807679,0.024727921954484568,0.10131531424886667,False
+rolling,6.0,delta,final system,LightGBM RAD-C,AUROC,0.027399934378742774,0.012029483046497449,0.04588350382631443,False
+rolling,6.0,delta,final system,LightGBM RAD-C,AUPRC,0.06587502061459832,0.038578990557779934,0.09713346308071442,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Brier,-0.0023340104400493174,-0.0030377799058160103,-0.00163323766245371,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Sens@Spec90,0.07408234578656236,0.02758276424230842,0.11748836533379488,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Accuracy,0.0025772392337635175,0.0009732092241700824,0.004257857398251771,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Balanced acc.,0.021181660708744388,0.006115409794635429,0.038068617579431335,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Sensitivity,0.04097459126116887,0.010461415174486384,0.07512225689239721,False
+rolling,6.0,delta,final system,LightGBM RAD-C,Specificity,0.001388730156319573,4.8172647363622925e-05,0.002781525886251612,False
+rolling,6.0,delta,final system,LightGBM RAD-C,PPV,0.07256411486181547,0.01973498861910439,0.12778841725524337,False
+rolling,6.0,delta,final system,LightGBM RAD-C,NPV,0.0013654814049011144,0.00015995813970565712,0.002579905058845094,False
+rolling,6.0,delta,final system,LightGBM RAD-C,F1,0.05160218408661987,0.01803571364609339,0.0871332645582979,False
+rolling,6.0,delta,final system,LightGBM RAD-C,MCC,0.055486587034276225,0.021130285250073495,0.09321411501591224,False
+rolling,6.0,delta,final system,XGBoost RAD-C,AUROC,0.04549235799924489,0.029924859721285606,0.06414269823929902,False
+rolling,6.0,delta,final system,XGBoost RAD-C,AUPRC,0.07682020887875801,0.045361900378984035,0.11024636678494895,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Brier,-0.0022941001466474063,-0.003032310271719758,-0.0016051828470446195,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Sens@Spec90,0.10261033916375784,0.06270014837641959,0.15235718558809802,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Accuracy,0.002870380980988241,0.001205519137911945,0.004718069362199093,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Balanced acc.,0.028323761717631735,0.010827961891583577,0.04834296550405047,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Sensitivity,0.05510953944066921,0.019825336216058725,0.0954200894723352,False
+rolling,6.0,delta,final system,XGBoost RAD-C,Specificity,0.0015379839945939278,0.0003019915884343416,0.00287628282702538,False
+rolling,6.0,delta,final system,XGBoost RAD-C,PPV,0.09659945295171107,0.03955752362117991,0.1543260379531426,False
+rolling,6.0,delta,final system,XGBoost RAD-C,NPV,0.0015134582263690577,0.00031351760412955956,0.002845687097757601,False
+rolling,6.0,delta,final system,XGBoost RAD-C,F1,0.06938938533276962,0.03009909777491528,0.11025247032315248,False
+rolling,6.0,delta,final system,XGBoost RAD-C,MCC,0.0740662549778277,0.03424113898981459,0.11716219356603787,False
+rolling,6.0,delta,final system,CatBoost RAD-C,AUROC,0.03972703992372917,0.020170380883999566,0.06375250242866727,False
+rolling,6.0,delta,final system,CatBoost RAD-C,AUPRC,0.06423650947996423,0.03975128509784689,0.09211824552006002,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Brier,-0.001927075132542963,-0.0026155174617983785,-0.0012088335318654606,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Sens@Spec90,0.07461992916180549,0.029465530157416573,0.1174328846848294,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Accuracy,0.00194066024159123,0.00022439609134534968,0.0037053988922101542,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Balanced acc.,0.022151653157194473,0.0051103412151084415,0.04194264848736823,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Sensitivity,0.04327104493864242,0.008920821058116132,0.083369992155386,False
+rolling,6.0,delta,final system,CatBoost RAD-C,Specificity,0.0010322613757463017,-0.0004020921871777355,0.002491621505464739,False
+rolling,6.0,delta,final system,CatBoost RAD-C,PPV,0.06992030045405356,-0.0022892730390982195,0.13211614030207955,False
+rolling,6.0,delta,final system,CatBoost RAD-C,NPV,0.0010173908854335112,-9.825431216914368e-06,0.0020378633939626355,False
+rolling,6.0,delta,final system,CatBoost RAD-C,F1,0.053264607699085476,0.012668528376282821,0.0965001504459089,False
+rolling,6.0,delta,final system,CatBoost RAD-C,MCC,0.055944194724748764,0.010697853747439652,0.10209590423384043,False
+rolling,6.0,delta,final system,RealMLP RAD-C,AUROC,0.12758147172717493,0.0993908062838723,0.1612048806740506,False
+rolling,6.0,delta,final system,RealMLP RAD-C,AUPRC,0.13077445348054179,0.09622487629420805,0.16784517528525963,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Brier,-0.0051780162903772055,-0.006218778819236297,-0.0040671724985451765,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Sens@Spec90,0.18205827714232148,0.12864585210963778,0.24221788547978873,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Accuracy,0.004302709039558872,0.002229013399659652,0.006413408159555056,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Balanced acc.,0.038486029402033384,0.018021493310450016,0.06043866757292571,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Sensitivity,0.07465961225425172,0.032939344579320684,0.1186980305516459,False
+rolling,6.0,delta,final system,RealMLP RAD-C,Specificity,0.002312446549814884,0.000633494380929503,0.0038662446088303434,False
+rolling,6.0,delta,final system,RealMLP RAD-C,PPV,0.11901426233404905,0.04921646784966559,0.19245588293813726,False
+rolling,6.0,delta,final system,RealMLP RAD-C,NPV,0.0022740389810981254,0.0009104248561080469,0.003765335811531997,False
+rolling,6.0,delta,final system,RealMLP RAD-C,F1,0.09136921426048056,0.045111206961754594,0.13979446920137556,False
+rolling,6.0,delta,final system,RealMLP RAD-C,MCC,0.09638769009699855,0.04803607627202792,0.14759826966344514,False
+rolling,6.0,delta,final system,TabM RAD-C,AUROC,0.1209868016724931,0.09406238218356963,0.14960948503495375,False
+rolling,6.0,delta,final system,TabM RAD-C,AUPRC,0.1353913033166853,0.09974010992640153,0.17032713217366163,False
+rolling,6.0,delta,final system,TabM RAD-C,Brier,-0.0050390485380797,-0.006519142498641715,-0.0037492530547181776,False
+rolling,6.0,delta,final system,TabM RAD-C,Sens@Spec90,0.143310228643856,0.09075517441874778,0.19809234508941512,False
+rolling,6.0,delta,final system,TabM RAD-C,Accuracy,0.00358365442342079,0.0016820849320769242,0.005493203957345338,False
+rolling,6.0,delta,final system,TabM RAD-C,Balanced acc.,0.03457441936354744,0.014019711427183223,0.055066699350662475,False
+rolling,6.0,delta,final system,TabM RAD-C,Sensitivity,0.0672452779513047,0.02607757176243177,0.10840122629926349,False
+rolling,6.0,delta,final system,TabM RAD-C,Specificity,0.001903560775789792,0.0003193999370922796,0.0034194560659046355,False
+rolling,6.0,delta,final system,TabM RAD-C,PPV,0.11832700866041285,0.04822456094707723,0.18397897596156643,False
+rolling,6.0,delta,final system,TabM RAD-C,NPV,0.0018740530065604055,0.0006524060356185607,0.0031374712383122087,False
+rolling,6.0,delta,final system,TabM RAD-C,F1,0.08493007097840283,0.03702969300324472,0.1293877330115188,False
+rolling,6.0,delta,final system,TabM RAD-C,MCC,0.09066542015610696,0.03972004343745415,0.1378769632180407,False
+rolling,6.0,delta,final system,TabICL RAD-C,AUROC,0.024661849366746202,0.007664018766660377,0.044076597964115505,False
+rolling,6.0,delta,final system,TabICL RAD-C,AUPRC,0.06031194165571874,0.028061242193485526,0.09243458269735268,False
+rolling,6.0,delta,final system,TabICL RAD-C,Brier,-0.002143680150947073,-0.0028303997042261058,-0.0013997335683570474,False
+rolling,6.0,delta,final system,TabICL RAD-C,Sens@Spec90,0.049631467062458245,-0.009637793581399393,0.11261223818005685,False
+rolling,6.0,delta,final system,TabICL RAD-C,Accuracy,0.0027096098028578375,0.0011641932897735715,0.004407307048524984,False
+rolling,6.0,delta,final system,TabICL RAD-C,Balanced acc.,0.02192687117284786,0.00400166901157086,0.04125042166607625,False
+rolling,6.0,delta,final system,TabICL RAD-C,Sensitivity,0.04238655078490927,0.006497333010812989,0.08144464757732002,False
+rolling,6.0,delta,final system,TabICL RAD-C,Specificity,0.0014671915607863406,0.00022016601871721055,0.0026201833969976577,False
+rolling,6.0,delta,final system,TabICL RAD-C,PPV,0.07419332443477572,0.012089864139128818,0.13679883209515317,False
+rolling,6.0,delta,final system,TabICL RAD-C,NPV,0.0014411534008318405,0.00035954764939487294,0.0025460755765638883,False
+rolling,6.0,delta,final system,TabICL RAD-C,F1,0.053177128020723274,0.011280736333620514,0.09592974776908433,False
+rolling,6.0,delta,final system,TabICL RAD-C,MCC,0.05711538406555522,0.013970844446837275,0.09999858520216462,False
+rolling,12.0,value,final system,,AUROC,0.9693135531292321,,,
+rolling,12.0,value,final system,,AUPRC,0.6460838091020381,,,
+rolling,12.0,value,final system,,Brier,0.011560131238197007,,,
+rolling,12.0,value,final system,,Sens@Spec90,0.9164630325814536,,,
+rolling,12.0,value,final system,,Accuracy,0.9826228418776413,,,
+rolling,12.0,value,final system,,Balanced acc.,0.7453410524086683,,,
+rolling,12.0,value,final system,,Sensitivity,0.49843358395989973,,,
+rolling,12.0,value,final system,,Specificity,0.9922485208574369,,,
+rolling,12.0,value,final system,,PPV,0.600141440183335,,,
+rolling,12.0,value,final system,,NPV,0.9897845391557739,,,
+rolling,12.0,value,final system,,F1,0.5350367899456258,,,
+rolling,12.0,value,final system,,MCC,0.5332564714933707,,,
+rolling,12.0,value,RAD system (published),,AUROC,0.9711694731362182,,,
+rolling,12.0,value,RAD system (published),,AUPRC,0.6362341580301903,,,
+rolling,12.0,value,RAD system (published),,Brier,0.01180776344293696,,,
+rolling,12.0,value,RAD system (published),,Sens@Spec90,0.9156077694235589,,,
+rolling,12.0,value,RAD system (published),,Accuracy,0.9821364605546841,,,
+rolling,12.0,value,RAD system (published),,Balanced acc.,0.7427460481004899,,,
+rolling,12.0,value,RAD system (published),,Sensitivity,0.4934993734335839,,,
+rolling,12.0,value,RAD system (published),,Specificity,0.9919927227673959,,,
+rolling,12.0,value,RAD system (published),,PPV,0.5949331068500017,,,
+rolling,12.0,value,RAD system (published),,NPV,0.9895294371149576,,,
+rolling,12.0,value,RAD system (published),,F1,0.5299692223780582,,,
+rolling,12.0,value,RAD system (published),,MCC,0.527931504200819,,,
+rolling,12.0,value,SeqLab network (cond),,AUROC,0.9646947156512304,,,
+rolling,12.0,value,SeqLab network (cond),,AUPRC,0.6396299965740128,,,
+rolling,12.0,value,SeqLab network (cond),,Brier,0.012038094486918989,,,
+rolling,12.0,value,SeqLab network (cond),,Sens@Spec90,0.9081735588972432,,,
+rolling,12.0,value,SeqLab network (cond),,Accuracy,0.9817451373235229,,,
+rolling,12.0,value,SeqLab network (cond),,Balanced acc.,0.7441731424010747,,,
+rolling,12.0,value,SeqLab network (cond),,Sensitivity,0.4965591060985798,,,
+rolling,12.0,value,SeqLab network (cond),,Specificity,0.9917871787035695,,,
+rolling,12.0,value,SeqLab network (cond),,PPV,0.6078401949726071,,,
+rolling,12.0,value,SeqLab network (cond),,NPV,0.9893248255963111,,,
+rolling,12.0,value,SeqLab network (cond),,F1,0.5359631195009877,,,
+rolling,12.0,value,SeqLab network (cond),,MCC,0.5346801300729471,,,
+rolling,12.0,value,direct ensemble,,AUROC,0.9370339043228475,,,
+rolling,12.0,value,direct ensemble,,AUPRC,0.5889069189148932,,,
+rolling,12.0,value,direct ensemble,,Brier,0.013557004209999939,,,
+rolling,12.0,value,direct ensemble,,Sens@Spec90,0.8299812030075188,,,
+rolling,12.0,value,direct ensemble,,Accuracy,0.980473309800017,,,
+rolling,12.0,value,direct ensemble,,Balanced acc.,0.732558170589523,,,
+rolling,12.0,value,direct ensemble,,Sensitivity,0.4739964494569757,,,
+rolling,12.0,value,direct ensemble,,Specificity,0.9911198917220704,,,
+rolling,12.0,value,direct ensemble,,PPV,0.5712877546818491,,,
+rolling,12.0,value,direct ensemble,,NPV,0.9886597852359639,,,
+rolling,12.0,value,direct ensemble,,F1,0.5087360326666077,,,
+rolling,12.0,value,direct ensemble,,MCC,0.5056557925721443,,,
+rolling,12.0,value,HGB direct,,AUROC,0.790083484113118,,,
+rolling,12.0,value,HGB direct,,AUPRC,0.4730029161975537,,,
+rolling,12.0,value,HGB direct,,Brier,0.017454756382590895,,,
+rolling,12.0,value,HGB direct,,Sens@Spec90,0.6324352548036759,,,
+rolling,12.0,value,HGB direct,,Accuracy,0.9776814507281015,,,
+rolling,12.0,value,HGB direct,,Balanced acc.,0.6974568651983889,,,
+rolling,12.0,value,HGB direct,,Sensitivity,0.4052307852965748,,,
+rolling,12.0,value,HGB direct,,Specificity,0.989682945100203,,,
+rolling,12.0,value,HGB direct,,PPV,0.4685889775128012,,,
+rolling,12.0,value,HGB direct,,NPV,0.9872238042616037,,,
+rolling,12.0,value,HGB direct,,F1,0.4286747301298493,,,
+rolling,12.0,value,HGB direct,,MCC,0.4213891403689945,,,
+rolling,12.0,value,LightGBM direct,,AUROC,0.8193126730084267,,,
+rolling,12.0,value,LightGBM direct,,AUPRC,0.4816345745229207,,,
+rolling,12.0,value,LightGBM direct,,Brier,0.016630997262315036,,,
+rolling,12.0,value,LightGBM direct,,Sens@Spec90,0.7070206766917293,,,
+rolling,12.0,value,LightGBM direct,,Accuracy,0.9766694458785226,,,
+rolling,12.0,value,LightGBM direct,,Balanced acc.,0.6903028087062696,,,
+rolling,12.0,value,LightGBM direct,,Sensitivity,0.39145154553049294,,,
+rolling,12.0,value,LightGBM direct,,Specificity,0.9891540718820463,,,
+rolling,12.0,value,LightGBM direct,,PPV,0.45128773230207325,,,
+rolling,12.0,value,LightGBM direct,,NPV,0.986696759702949,,,
+rolling,12.0,value,LightGBM direct,,F1,0.4134720274271466,,,
+rolling,12.0,value,LightGBM direct,,MCC,0.4054890167208207,,,
+rolling,12.0,value,XGBoost direct,,AUROC,0.8507145988941762,,,
+rolling,12.0,value,XGBoost direct,,AUPRC,0.4751631315878378,,,
+rolling,12.0,value,XGBoost direct,,Brier,0.016320970122802456,,,
+rolling,12.0,value,XGBoost direct,,Sens@Spec90,0.7094507101086048,,,
+rolling,12.0,value,XGBoost direct,,Accuracy,0.9781851089653363,,,
+rolling,12.0,value,XGBoost direct,,Balanced acc.,0.6966354633596623,,,
+rolling,12.0,value,XGBoost direct,,Sensitivity,0.4033260233918129,,,
+rolling,12.0,value,XGBoost direct,,Specificity,0.9899449033275115,,,
+rolling,12.0,value,XGBoost direct,,PPV,0.45293477190532455,,,
+rolling,12.0,value,XGBoost direct,,NPV,0.9874867242531646,,,
+rolling,12.0,value,XGBoost direct,,F1,0.42220753362057706,,,
+rolling,12.0,value,XGBoost direct,,MCC,0.4140627881695851,,,
+rolling,12.0,value,CatBoost direct,,AUROC,0.8157636995221317,,,
+rolling,12.0,value,CatBoost direct,,AUPRC,0.42126988813327537,,,
+rolling,12.0,value,CatBoost direct,,Brier,0.018217861251055057,,,
+rolling,12.0,value,CatBoost direct,,Sens@Spec90,0.6345739348370927,,,
+rolling,12.0,value,CatBoost direct,,Accuracy,0.9748851822007877,,,
+rolling,12.0,value,CatBoost direct,,Balanced acc.,0.6719978610838255,,,
+rolling,12.0,value,CatBoost direct,,Sensitivity,0.35576754385964915,,,
+rolling,12.0,value,CatBoost direct,,Specificity,0.9882281783080018,,,
+rolling,12.0,value,CatBoost direct,,PPV,0.3996406926988219,,,
+rolling,12.0,value,CatBoost direct,,NPV,0.9857721331543492,,,
+rolling,12.0,value,CatBoost direct,,F1,0.37247845671758717,,,
+rolling,12.0,value,CatBoost direct,,MCC,0.362267680816556,,,
+rolling,12.0,value,RealMLP direct,,AUROC,0.772894271208204,,,
+rolling,12.0,value,RealMLP direct,,AUPRC,0.42864935223601996,,,
+rolling,12.0,value,RealMLP direct,,Brier,0.017997399831685808,,,
+rolling,12.0,value,RealMLP direct,,Sens@Spec90,0.6411194653299916,,,
+rolling,12.0,value,RealMLP direct,,Accuracy,0.9766275662003794,,,
+rolling,12.0,value,RealMLP direct,,Balanced acc.,0.6887649455558973,,,
+rolling,12.0,value,RealMLP direct,,Sensitivity,0.38839598997493735,,,
+rolling,12.0,value,RealMLP direct,,Specificity,0.9891339011368572,,,
+rolling,12.0,value,RealMLP direct,,PPV,0.4450034912450317,,,
+rolling,12.0,value,RealMLP direct,,NPV,0.9866774479600097,,,
+rolling,12.0,value,RealMLP direct,,F1,0.40913072960758795,,,
+rolling,12.0,value,RealMLP direct,,MCC,0.4009631960673182,,,
+rolling,12.0,value,TabM direct,,AUROC,0.6739113243463469,,,
+rolling,12.0,value,TabM direct,,AUPRC,0.24827700942208106,,,
+rolling,12.0,value,TabM direct,,Brier,0.021584601309956715,,,
+rolling,12.0,value,TabM direct,,Sens@Spec90,0.34376879699248125,,,
+rolling,12.0,value,TabM direct,,Accuracy,0.9675425109868803,,,
+rolling,12.0,value,TabM direct,,Balanced acc.,0.6178916633887308,,,
+rolling,12.0,value,TabM direct,,Sensitivity,0.2513815789473684,,,
+rolling,12.0,value,TabM direct,,Specificity,0.9844017478300933,,,
+rolling,12.0,value,TabM direct,,PPV,0.2759409576753679,,,
+rolling,12.0,value,TabM direct,,NPV,0.9819543063527492,,,
+rolling,12.0,value,TabM direct,,F1,0.26048602950776867,,,
+rolling,12.0,value,TabM direct,,MCC,0.24542334205169583,,,
+rolling,12.0,value,TabICL direct,,AUROC,0.8742404441799646,,,
+rolling,12.0,value,TabICL direct,,AUPRC,0.4598132461420871,,,
+rolling,12.0,value,TabICL direct,,Brier,0.015789246525764113,,,
+rolling,12.0,value,TabICL direct,,Sens@Spec90,0.7009670008354218,,,
+rolling,12.0,value,TabICL direct,,Accuracy,0.9771479147780442,,,
+rolling,12.0,value,TabICL direct,,Balanced acc.,0.6941763671906189,,,
+rolling,12.0,value,TabICL direct,,Sensitivity,0.3989515455304929,,,
+rolling,12.0,value,TabICL direct,,Specificity,0.9894011888507448,,,
+rolling,12.0,value,TabICL direct,,PPV,0.4582970780964658,,,
+rolling,12.0,value,TabICL direct,,NPV,0.9869444479460138,,,
+rolling,12.0,value,TabICL direct,,F1,0.42071840423874085,,,
+rolling,12.0,value,TabICL direct,,MCC,0.4129870892420763,,,
+rolling,12.0,value,HGB RAD-C,,AUROC,0.9219543864279762,,,
+rolling,12.0,value,HGB RAD-C,,AUPRC,0.5180331122617756,,,
+rolling,12.0,value,HGB RAD-C,,Brier,0.014100487228816664,,,
+rolling,12.0,value,HGB RAD-C,,Sens@Spec90,0.8156338763575606,,,
+rolling,12.0,value,HGB RAD-C,,Accuracy,0.9794377253298968,,,
+rolling,12.0,value,HGB RAD-C,,Balanced acc.,0.7085826170393663,,,
+rolling,12.0,value,HGB RAD-C,,Sensitivity,0.4265716374269005,,,
+rolling,12.0,value,HGB RAD-C,,Specificity,0.9905935966518319,,,
+rolling,12.0,value,HGB RAD-C,,PPV,0.4857412853152863,,,
+rolling,12.0,value,HGB RAD-C,,NPV,0.9881324837794692,,,
+rolling,12.0,value,HGB RAD-C,,F1,0.44923456064760414,,,
+rolling,12.0,value,HGB RAD-C,,MCC,0.4422382790414171,,,
+rolling,12.0,value,LightGBM RAD-C,,AUROC,0.9327940053649801,,,
+rolling,12.0,value,LightGBM RAD-C,,AUPRC,0.5522053590741555,,,
+rolling,12.0,value,LightGBM RAD-C,,Brier,0.01319234294061856,,,
+rolling,12.0,value,LightGBM RAD-C,,Sens@Spec90,0.8391875522138679,,,
+rolling,12.0,value,LightGBM RAD-C,,Accuracy,0.9806039448636924,,,
+rolling,12.0,value,LightGBM RAD-C,,Balanced acc.,0.7178802291437159,,,
+rolling,12.0,value,LightGBM RAD-C,,Sensitivity,0.44456140350877194,,,
+rolling,12.0,value,LightGBM RAD-C,,Specificity,0.9911990547786599,,,
+rolling,12.0,value,LightGBM RAD-C,,PPV,0.5065796540981845,,,
+rolling,12.0,value,LightGBM RAD-C,,NPV,0.9887371485539778,,,
+rolling,12.0,value,LightGBM RAD-C,,F1,0.46830526178352266,,,
+rolling,12.0,value,LightGBM RAD-C,,MCC,0.46208649701581206,,,
+rolling,12.0,value,XGBoost RAD-C,,AUROC,0.9443966709859111,,,
+rolling,12.0,value,XGBoost RAD-C,,AUPRC,0.6000625496625251,,,
+rolling,12.0,value,XGBoost RAD-C,,Brier,0.012947184973009066,,,
+rolling,12.0,value,XGBoost RAD-C,,Sens@Spec90,0.8281338763575605,,,
+rolling,12.0,value,XGBoost RAD-C,,Accuracy,0.9810267601388304,,,
+rolling,12.0,value,XGBoost RAD-C,,Balanced acc.,0.7319960777249978,,,
+rolling,12.0,value,XGBoost RAD-C,,Sensitivity,0.4725814536340852,,,
+rolling,12.0,value,XGBoost RAD-C,,Specificity,0.9914107018159103,,,
+rolling,12.0,value,XGBoost RAD-C,,PPV,0.5601167776703548,,,
+rolling,12.0,value,XGBoost RAD-C,,NPV,0.9889494307682156,,,
+rolling,12.0,value,XGBoost RAD-C,,F1,0.5044313247328674,,,
+rolling,12.0,value,XGBoost RAD-C,,MCC,0.5006821557975335,,,
+rolling,12.0,value,CatBoost RAD-C,,AUROC,0.9571249137006119,,,
+rolling,12.0,value,CatBoost RAD-C,,AUPRC,0.6068124543325977,,,
+rolling,12.0,value,CatBoost RAD-C,,Brier,0.01244267092084191,,,
+rolling,12.0,value,CatBoost RAD-C,,Sens@Spec90,0.8783145363408521,,,
+rolling,12.0,value,CatBoost RAD-C,,Accuracy,0.9817171482475832,,,
+rolling,12.0,value,CatBoost RAD-C,,Balanced acc.,0.7369939466196079,,,
+rolling,12.0,value,CatBoost RAD-C,,Sensitivity,0.4822159565580618,,,
+rolling,12.0,value,CatBoost RAD-C,,Specificity,0.991771936681154,,,
+rolling,12.0,value,CatBoost RAD-C,,PPV,0.5733454631718409,,,
+rolling,12.0,value,CatBoost RAD-C,,NPV,0.9893088785655768,,,
+rolling,12.0,value,CatBoost RAD-C,,F1,0.515529379309183,,,
+rolling,12.0,value,CatBoost RAD-C,,MCC,0.5123079328411049,,,
+rolling,12.0,value,RealMLP RAD-C,,AUROC,0.8713991144735153,,,
+rolling,12.0,value,RealMLP RAD-C,,AUPRC,0.4579375809536092,,,
+rolling,12.0,value,RealMLP RAD-C,,Brier,0.015596725366198237,,,
+rolling,12.0,value,RealMLP RAD-C,,Sens@Spec90,0.7428550543024227,,,
+rolling,12.0,value,RealMLP RAD-C,,Accuracy,0.9776788132536229,,,
+rolling,12.0,value,RealMLP RAD-C,,Balanced acc.,0.6978830499237791,,,
+rolling,12.0,value,RealMLP RAD-C,,Sensitivity,0.40608604845446955,,,
+rolling,12.0,value,RealMLP RAD-C,,Specificity,0.989680051393089,,,
+rolling,12.0,value,RealMLP RAD-C,,PPV,0.46918931499982097,,,
+rolling,12.0,value,RealMLP RAD-C,,NPV,0.9872213329956866,,,
+rolling,12.0,value,RealMLP RAD-C,,F1,0.42940099987785824,,,
+rolling,12.0,value,RealMLP RAD-C,,MCC,0.4221135087785625,,,
+rolling,12.0,value,TabM RAD-C,,AUROC,0.9481247251650753,,,
+rolling,12.0,value,TabM RAD-C,,AUPRC,0.49429587948456566,,,
+rolling,12.0,value,TabM RAD-C,,Brier,0.015066527327459407,,,
+rolling,12.0,value,TabM RAD-C,,Sens@Spec90,0.8330409356725146,,,
+rolling,12.0,value,TabM RAD-C,,Accuracy,0.9790830068279217,,,
+rolling,12.0,value,TabM RAD-C,,Balanced acc.,0.7123999439411038,,,
+rolling,12.0,value,TabM RAD-C,,Sensitivity,0.4343974519632415,,,
+rolling,12.0,value,TabM RAD-C,,Specificity,0.9904024359189664,,,
+rolling,12.0,value,TabM RAD-C,,PPV,0.5061332894689727,,,
+rolling,12.0,value,TabM RAD-C,,NPV,0.9879422414719277,,,
+rolling,12.0,value,TabM RAD-C,,F1,0.4610222950861099,,,
+rolling,12.0,value,TabM RAD-C,,MCC,0.45496146238618357,,,
+rolling,12.0,value,TabICL RAD-C,,AUROC,0.9356584535133352,,,
+rolling,12.0,value,TabICL RAD-C,,AUPRC,0.5578463033727638,,,
+rolling,12.0,value,TabICL RAD-C,,Brier,0.013302582677260767,,,
+rolling,12.0,value,TabICL RAD-C,,Sens@Spec90,0.8535923141186299,,,
+rolling,12.0,value,TabICL RAD-C,,Accuracy,0.9804087159948911,,,
+rolling,12.0,value,TabICL RAD-C,,Balanced acc.,0.7229887422069033,,,
+rolling,12.0,value,TabICL RAD-C,,Sensitivity,0.4548872180451128,,,
+rolling,12.0,value,TabICL RAD-C,,Specificity,0.991090266368694,,,
+rolling,12.0,value,TabICL RAD-C,,PPV,0.5293081068500017,,,
+rolling,12.0,value,TabICL RAD-C,,NPV,0.9886294689941245,,,
+rolling,12.0,value,TabICL RAD-C,,F1,0.48250845515922647,,,
+rolling,12.0,value,TabICL RAD-C,,MCC,0.4773090378676637,,,
+rolling,12.0,delta,final system,RAD system (published),AUROC,-0.0018559200069860893,-0.005289159948850744,0.0011529484404202784,False
+rolling,12.0,delta,final system,RAD system (published),AUPRC,0.009849651071847765,9.821896890131752e-05,0.020964359425121152,False
+rolling,12.0,delta,final system,RAD system (published),Brier,-0.0002476322047399535,-0.00046138185610341984,-4.053905910068316e-05,False
+rolling,12.0,delta,final system,RAD system (published),Sens@Spec90,0.0008552631578946368,-0.03880416117394024,0.03278250915750917,False
+rolling,12.0,delta,final system,RAD system (published),Accuracy,0.0004863813229571967,-0.0006244127442323416,0.0016576888447233733,False
+rolling,12.0,delta,final system,RAD system (published),Balanced acc.,0.0025950043081783836,-0.017241829888706966,0.020683313694253497,False
+rolling,12.0,delta,final system,RAD system (published),Sensitivity,0.004934210526315819,-0.03488205604265494,0.040775140353749316,False
+rolling,12.0,delta,final system,RAD system (published),Specificity,0.00025579809004094844,-0.0005725502337811716,0.001073252662200791,False
+rolling,12.0,delta,final system,RAD system (published),PPV,0.00520833333333337,-0.039970269460441264,0.0428956126598364,False
+rolling,12.0,delta,final system,RAD system (published),NPV,0.00025510204081635734,-0.0006148403689818088,0.0010734369444363983,False
+rolling,12.0,delta,final system,RAD system (published),F1,0.0050675675675675436,-0.031217570328859343,0.03585992765910899,False
+rolling,12.0,delta,final system,RAD system (published),MCC,0.005324967292551719,-0.029327906100020062,0.035208944361903895,False
+rolling,12.0,delta,final system,SeqLab network (cond),AUROC,0.004618837478001625,0.001339305144424413,0.008569542809097554,False
+rolling,12.0,delta,final system,SeqLab network (cond),AUPRC,0.006453812528025349,-0.02211800758631526,0.030988947610119378,False
+rolling,12.0,delta,final system,SeqLab network (cond),Brier,-0.0004779632487219819,-0.0009419124576047056,1.925648619109606e-07,False
+rolling,12.0,delta,final system,SeqLab network (cond),Sens@Spec90,0.008289473684210402,-0.02996947467585203,0.04579843756099212,False
+rolling,12.0,delta,final system,SeqLab network (cond),Accuracy,0.000877704554118397,-0.0008528888419091968,0.002562031986231722,False
+rolling,12.0,delta,final system,SeqLab network (cond),Balanced acc.,0.0011679100075936422,-0.026351736626292286,0.028428931533523966,False
+rolling,12.0,delta,final system,SeqLab network (cond),Sensitivity,0.0018744778613199453,-0.05266462492981931,0.05623432327476433,False
+rolling,12.0,delta,final system,SeqLab network (cond),Specificity,0.0004613421538673945,-0.0009185165577938664,0.0019137052319435825,False
+rolling,12.0,delta,final system,SeqLab network (cond),PPV,-0.0076987547892720665,-0.09729096645913675,0.08399999890730876,False
+rolling,12.0,delta,final system,SeqLab network (cond),NPV,0.00045971355946283765,-0.00042309578587972074,0.0013009136731525262,False
+rolling,12.0,delta,final system,SeqLab network (cond),F1,-0.0009263295553619821,-0.06380035076102333,0.06057219738896257,False
+rolling,12.0,delta,final system,SeqLab network (cond),MCC,-0.0014236585795763812,-0.06663978453266298,0.06152545427171671,False
+rolling,12.0,delta,final system,direct ensemble,AUROC,0.032279648806384564,0.017016784803912246,0.05163023733669574,False
+rolling,12.0,delta,final system,direct ensemble,AUPRC,0.05717689018714489,0.03483457233721368,0.08030514755750315,False
+rolling,12.0,delta,final system,direct ensemble,Brier,-0.0019968729718029318,-0.0025549566492334575,-0.0014476584002793085,False
+rolling,12.0,delta,final system,direct ensemble,Sens@Spec90,0.0864818295739348,0.04138204094481593,0.14358924462113684,False
+rolling,12.0,delta,final system,direct ensemble,Accuracy,0.00214953207762425,8.609380688400504e-05,0.003999786061634455,False
+rolling,12.0,delta,final system,direct ensemble,Balanced acc.,0.01278288181914533,-0.00789992416596048,0.0348460172987217,False
+rolling,12.0,delta,final system,direct ensemble,Sensitivity,0.024437134502924007,-0.016883279916602392,0.06855442006750741,False
+rolling,12.0,delta,final system,direct ensemble,Specificity,0.001128629135366488,-0.0004752798899411631,0.0026882473048108757,False
+rolling,12.0,delta,final system,direct ensemble,PPV,0.028853685501485926,-0.04075980151007406,0.10477779762132429,False
+rolling,12.0,delta,final system,direct ensemble,NPV,0.0011247539198100398,1.8323413440127224e-05,0.0023275524247552944,False
+rolling,12.0,delta,final system,direct ensemble,F1,0.02630075727901804,-0.014872746033870444,0.06864161477741255,False
+rolling,12.0,delta,final system,direct ensemble,MCC,0.027600678921226418,-0.014656514519659186,0.07178509899993896,False
+rolling,12.0,delta,final system,HGB direct,AUROC,0.17923006901611405,0.14213820583944195,0.22354533659761944,False
+rolling,12.0,delta,final system,HGB direct,AUPRC,0.17308089290448442,0.13317789627789975,0.22044205716348733,False
+rolling,12.0,delta,final system,HGB direct,Brier,-0.005894625144393888,-0.007218445128517087,-0.004602837915295203,False
+rolling,12.0,delta,final system,HGB direct,Sens@Spec90,0.28402777777777766,0.22257189606004013,0.35392559286516584,False
+rolling,12.0,delta,final system,HGB direct,Accuracy,0.004941391149539731,0.002923973065956631,0.007249356375527885,False
+rolling,12.0,delta,final system,HGB direct,Balanced acc.,0.04788418721027943,0.022129223118664637,0.07795732668160499,False
+rolling,12.0,delta,final system,HGB direct,Sensitivity,0.09320279866332493,0.04200048970210262,0.15349300733119672,False
+rolling,12.0,delta,final system,HGB direct,Specificity,0.002565575757233818,0.0009229748720391062,0.004331827177924527,False
+rolling,12.0,delta,final system,HGB direct,PPV,0.13155246267053383,0.05234936527144449,0.2279775379932439,False
+rolling,12.0,delta,final system,HGB direct,NPV,0.0025607348941701913,0.0013353581517916852,0.0038744828775018384,False
+rolling,12.0,delta,final system,HGB direct,F1,0.10636205981577646,0.05054195853725519,0.16594025730346337,False
+rolling,12.0,delta,final system,HGB direct,MCC,0.11186733112437625,0.054657934437859955,0.17523389120546679,False
+rolling,12.0,delta,final system,LightGBM direct,AUROC,0.15000088012080537,0.10349048991630824,0.20416409000460672,True
+rolling,12.0,delta,final system,LightGBM direct,AUPRC,0.16444923457911742,0.12005013861522223,0.21545884797535442,True
+rolling,12.0,delta,final system,LightGBM direct,Brier,-0.005070866024118029,-0.006337830495123848,-0.0038644705632653567,True
+rolling,12.0,delta,final system,LightGBM direct,Sens@Spec90,0.20944235588972426,0.1346136247399694,0.29280799482177583,True
+rolling,12.0,delta,final system,LightGBM direct,Accuracy,0.005953395999118705,0.003901526395317717,0.008112949140963801,True
+rolling,12.0,delta,final system,LightGBM direct,Balanced acc.,0.05503824370239874,0.027669759589784182,0.08652479288796391,True
+rolling,12.0,delta,final system,LightGBM direct,Sensitivity,0.10698203842940679,0.05225745102248945,0.16997272371504063,True
+rolling,12.0,delta,final system,LightGBM direct,Specificity,0.0030944489753905735,0.0013990014241764576,0.00496252831411495,True
+rolling,12.0,delta,final system,LightGBM direct,PPV,0.1488537078812618,0.06978431310677839,0.23957757108865688,True
+rolling,12.0,delta,final system,LightGBM direct,NPV,0.0030877794528249014,0.0018009485008306791,0.004469187331821034,True
+rolling,12.0,delta,final system,LightGBM direct,F1,0.12156476251847914,0.06740525787156966,0.17985670415352836,True
+rolling,12.0,delta,final system,LightGBM direct,MCC,0.12776745477255003,0.06890636952112325,0.1859054815032706,True
+rolling,12.0,delta,final system,XGBoost direct,AUROC,0.11859895423505584,0.08309956429641445,0.1598597558545598,False
+rolling,12.0,delta,final system,XGBoost direct,AUPRC,0.17092067751420031,0.1234636237773589,0.22745594308458955,False
+rolling,12.0,delta,final system,XGBoost direct,Brier,-0.0047608388846054495,-0.006051821497337698,-0.003489921299860326,False
+rolling,12.0,delta,final system,XGBoost direct,Sens@Spec90,0.20701232247284873,0.1351934141219085,0.28561436024562387,False
+rolling,12.0,delta,final system,XGBoost direct,Accuracy,0.004437732912304981,0.002406524711049135,0.006518838701334193,False
+rolling,12.0,delta,final system,XGBoost direct,Balanced acc.,0.048705589049006015,0.0233728696702369,0.07801283793649623,False
+rolling,12.0,delta,final system,XGBoost direct,Sensitivity,0.09510756056808684,0.044939855797128364,0.1522886983919364,False
+rolling,12.0,delta,final system,XGBoost direct,Specificity,0.0023036175299253614,0.0006072722533997293,0.00391553191869749,False
+rolling,12.0,delta,final system,XGBoost direct,PPV,0.1472066682780105,0.06490922987168414,0.23353520584865176,False
+rolling,12.0,delta,final system,XGBoost direct,NPV,0.0022978149026092742,0.0010790160079459043,0.003634772242105183,False
+rolling,12.0,delta,final system,XGBoost direct,F1,0.1128292563250487,0.059822463850625285,0.16930274935846742,False
+rolling,12.0,delta,final system,XGBoost direct,MCC,0.11919368332378566,0.06350523523911863,0.17527117380636786,False
+rolling,12.0,delta,final system,CatBoost direct,AUROC,0.15354985360710038,0.11129331523978311,0.20164683606927913,False
+rolling,12.0,delta,final system,CatBoost direct,AUPRC,0.22481392096876274,0.16924714529443005,0.28617867038695916,False
+rolling,12.0,delta,final system,CatBoost direct,Brier,-0.00665773001285805,-0.007937772966294956,-0.005406940865380927,False
+rolling,12.0,delta,final system,CatBoost direct,Sens@Spec90,0.2818890977443609,0.20321117751607642,0.3649648071993431,False
+rolling,12.0,delta,final system,CatBoost direct,Accuracy,0.007737659676853581,0.0052402420513542715,0.010342655302636308,False
+rolling,12.0,delta,final system,CatBoost direct,Balanced acc.,0.0733431913248428,0.04443151906026769,0.10629099557280897,False
+rolling,12.0,delta,final system,CatBoost direct,Sensitivity,0.14266604010025058,0.08561088907557886,0.20799569753537822,False
+rolling,12.0,delta,final system,CatBoost direct,Specificity,0.004020342549435063,0.0019359867324261926,0.006142018675330065,False
+rolling,12.0,delta,final system,CatBoost direct,PPV,0.20050074748451313,0.11941091972556421,0.2893239928715942,False
+rolling,12.0,delta,final system,CatBoost direct,NPV,0.004012406001424718,0.0026126751040853463,0.0055404685056521736,False
+rolling,12.0,delta,final system,CatBoost direct,F1,0.1625583332280386,0.1020488093648545,0.22815693027746325,False
+rolling,12.0,delta,final system,CatBoost direct,MCC,0.17098879067681472,0.10962401614191307,0.23564588113693738,False
+rolling,12.0,delta,final system,RealMLP direct,AUROC,0.1964192819210281,0.14571733695681388,0.2536242200196073,False
+rolling,12.0,delta,final system,RealMLP direct,AUPRC,0.21743445686601814,0.1544797194069364,0.2740560544729873,False
+rolling,12.0,delta,final system,RealMLP direct,Brier,-0.006437268593488801,-0.0078817109911348,-0.005055639873950656,False
+rolling,12.0,delta,final system,RealMLP direct,Sens@Spec90,0.2753435672514619,0.19602290160893066,0.3632624041017852,False
+rolling,12.0,delta,final system,RealMLP direct,Accuracy,0.00599527567726188,0.0035763143339527736,0.008355110930942822,False
+rolling,12.0,delta,final system,RealMLP direct,Balanced acc.,0.056576106852771035,0.034509502086322516,0.08424989304023073,False
+rolling,12.0,delta,final system,RealMLP direct,Sensitivity,0.11003759398496238,0.06494351581582207,0.16534396890327555,False
+rolling,12.0,delta,final system,RealMLP direct,Specificity,0.003114619720579692,0.0009272652704766709,0.005051568844891513,False
+rolling,12.0,delta,final system,RealMLP direct,PPV,0.15513794893830335,0.08208653017018279,0.2383384886587499,False
+rolling,12.0,delta,final system,RealMLP direct,NPV,0.0031070911957642444,0.0019219083491003543,0.004348502428745481,False
+rolling,12.0,delta,final system,RealMLP direct,F1,0.1259060603380378,0.08007578252494314,0.18013018538131037,False
+rolling,12.0,delta,final system,RealMLP direct,MCC,0.13229327542605257,0.0847917631190098,0.18766259991414241,False
+rolling,12.0,delta,final system,TabM direct,AUROC,0.29540222878288513,0.2588888495432346,0.32642158055334397,False
+rolling,12.0,delta,final system,TabM direct,AUPRC,0.397806799679957,0.3169432451685034,0.4685089834709222,False
+rolling,12.0,delta,final system,TabM direct,Brier,-0.010024470071759708,-0.012242342547536283,-0.007861358411511712,False
+rolling,12.0,delta,final system,TabM direct,Sens@Spec90,0.5726942355889724,0.5026145176051584,0.6352579511904342,False
+rolling,12.0,delta,final system,TabM direct,Accuracy,0.015080330890760996,0.01191168037573397,0.018194979669375493,False
+rolling,12.0,delta,final system,TabM direct,Balanced acc.,0.12744938901993752,0.09573148950196612,0.16107296411484076,False
+rolling,12.0,delta,final system,TabM direct,Sensitivity,0.24705200501253133,0.1839064036856009,0.31482016082130115,False
+rolling,12.0,delta,final system,TabM direct,Specificity,0.007846773027343601,0.005126160791990186,0.01024217784987366,False
+rolling,12.0,delta,final system,TabM direct,PPV,0.3242004825079671,0.24348061195652987,0.39962872154928175,False
+rolling,12.0,delta,final system,TabM direct,NPV,0.00783023280302475,0.0061078500386003735,0.00980083754349476,False
+rolling,12.0,delta,final system,TabM direct,F1,0.2745507604378571,0.20840837652772795,0.3365272078518966,False
+rolling,12.0,delta,final system,TabM direct,MCC,0.28783312944167494,0.2232094825575696,0.34826162738408084,False
+rolling,12.0,delta,final system,TabICL direct,AUROC,0.09507310894926746,0.06826935817530154,0.12735376992205988,False
+rolling,12.0,delta,final system,TabICL direct,AUPRC,0.18627056295995104,0.13450860269613896,0.23380623872070913,False
+rolling,12.0,delta,final system,TabICL direct,Brier,-0.004229115287567106,-0.005305960308485579,-0.0030971820307128875,False
+rolling,12.0,delta,final system,TabICL direct,Sens@Spec90,0.2154960317460317,0.15082294592451803,0.2840501348569611,False
+rolling,12.0,delta,final system,TabICL direct,Accuracy,0.005474927099597071,0.0033646789433208284,0.0077100489220990045,False
+rolling,12.0,delta,final system,TabICL direct,Balanced acc.,0.0511646852180494,0.026601211851501712,0.07959408079938578,False
+rolling,12.0,delta,final system,TabICL direct,Sensitivity,0.09948203842940684,0.05011062232266,0.15582905905365568,False
+rolling,12.0,delta,final system,TabICL direct,Specificity,0.0028473320066920715,0.0010296311091386122,0.004793593147741473,False
+rolling,12.0,delta,final system,TabICL direct,PPV,0.14184436208686924,0.05920020290084517,0.22682175256198397,False
+rolling,12.0,delta,final system,TabICL direct,NPV,0.0028400912097601427,0.0014505409404753672,0.004257788115520613,False
+rolling,12.0,delta,final system,TabICL direct,F1,0.1143183857068849,0.062330496149676076,0.17163819391093615,False
+rolling,12.0,delta,final system,TabICL direct,MCC,0.12026938225129447,0.06560148507023102,0.17924917309006372,False
+rolling,12.0,delta,final system,HGB RAD-C,AUROC,0.04735916670125584,0.02624511750200976,0.07119455287328488,False
+rolling,12.0,delta,final system,HGB RAD-C,AUPRC,0.1280506968402625,0.07812897094632279,0.1826417556612496,False
+rolling,12.0,delta,final system,HGB RAD-C,Brier,-0.002540355990619657,-0.0034300197075662594,-0.0015766010531170264,False
+rolling,12.0,delta,final system,HGB RAD-C,Sens@Spec90,0.10082915622389299,0.03953318616669533,0.16883822128610193,False
+rolling,12.0,delta,final system,HGB RAD-C,Accuracy,0.0031851165477444487,0.0013651927009037472,0.005161535695223399,False
+rolling,12.0,delta,final system,HGB RAD-C,Balanced acc.,0.03675843536930201,0.00566899386657975,0.06732558994701084,False
+rolling,12.0,delta,final system,HGB RAD-C,Sensitivity,0.07186194653299921,0.009964249157961404,0.13290044782311544,False
+rolling,12.0,delta,final system,HGB RAD-C,Specificity,0.0016549242056049795,0.00020227289749486787,0.003137711218720473,False
+rolling,12.0,delta,final system,HGB RAD-C,PPV,0.11440015486804872,0.038223454420651275,0.18774376938067847,False
+rolling,12.0,delta,final system,HGB RAD-C,NPV,0.0016520553763047507,0.0004396383692948675,0.003018141203975002,False
+rolling,12.0,delta,final system,HGB RAD-C,F1,0.08580222929802162,0.023557343330175083,0.1398809852241195,False
+rolling,12.0,delta,final system,HGB RAD-C,MCC,0.09101819245195364,0.030300181424577317,0.14627748218103548,False
+rolling,12.0,delta,final system,LightGBM RAD-C,AUROC,0.036519547764251925,0.013075390186641755,0.06449949116620665,False
+rolling,12.0,delta,final system,LightGBM RAD-C,AUPRC,0.09387845002788264,0.052570787412523155,0.14385562990964657,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Brier,-0.001632211702421553,-0.0024309541678390694,-0.0008320281022367162,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Sens@Spec90,0.07727548036758569,0.005660354589981503,0.14838218459234595,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Accuracy,0.0020188970139488616,8.180472286079823e-05,0.0038398467595454427,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Balanced acc.,0.027460823264952472,-0.0023311185583254485,0.057744119079332225,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Sensitivity,0.053872180451127794,-0.004772274513078526,0.11527726939629172,False
+rolling,12.0,delta,final system,LightGBM RAD-C,Specificity,0.0010494660787769838,-0.0005385394949535827,0.002671390399961479,False
+rolling,12.0,delta,final system,LightGBM RAD-C,PPV,0.09356178608515053,0.012823727772356597,0.1766735649579145,False
+rolling,12.0,delta,final system,LightGBM RAD-C,NPV,0.0010473906017961498,-0.0001121814011045774,0.002164763846529724,False
+rolling,12.0,delta,final system,LightGBM RAD-C,F1,0.0667315281621031,0.006952280585622626,0.12397509434741759,False
+rolling,12.0,delta,final system,LightGBM RAD-C,MCC,0.07116997447755868,0.00826586429661503,0.12812203806970734,False
+rolling,12.0,delta,final system,XGBoost RAD-C,AUROC,0.024916882143320995,0.008154754016108188,0.044628475426865356,False
+rolling,12.0,delta,final system,XGBoost RAD-C,AUPRC,0.04602125943951296,0.006047682085279136,0.0956139988101312,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Brier,-0.0013870537348120594,-0.00218942327456681,-0.0005964284000467613,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Sens@Spec90,0.08832915622389304,0.03959382588010739,0.153145299249856,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Accuracy,0.0015960817388108728,-0.00021640642055900105,0.0034690023384308876,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Balanced acc.,0.013344974683670574,-0.00798405215562883,0.038214912304938994,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Sensitivity,0.025852130325814515,-0.016546187078112666,0.07493915235313489,False
+rolling,12.0,delta,final system,XGBoost RAD-C,Specificity,0.0008378190415265774,-0.0007238755546243064,0.002457053711682552,False
+rolling,12.0,delta,final system,XGBoost RAD-C,PPV,0.0400246625129802,-0.02922766042017344,0.10959651494453414,False
+rolling,12.0,delta,final system,XGBoost RAD-C,NPV,0.0008351083875582921,-0.000267334748027509,0.002091076727495036,False
+rolling,12.0,delta,final system,XGBoost RAD-C,F1,0.03060546521275831,-0.01158373212253038,0.07582725769659565,False
+rolling,12.0,delta,final system,XGBoost RAD-C,MCC,0.03257431569583724,-0.008265211683301282,0.07771778897345778,False
+rolling,12.0,delta,final system,CatBoost RAD-C,AUROC,0.01218863942862014,-0.003862303163953759,0.03080096876175228,False
+rolling,12.0,delta,final system,CatBoost RAD-C,AUPRC,0.039271354769440436,0.00461472952321437,0.07839044581261624,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Brier,-0.000882539682644904,-0.0015489968969891659,-0.0001664012124799105,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Sens@Spec90,0.03814849624060146,-0.025855913928689078,0.10590351234160185,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Accuracy,0.000905693630058102,-0.0011984715406904128,0.0028475178234670133,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Balanced acc.,0.008347105789060394,-0.02469651357396401,0.0417492866805903,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Sensitivity,0.01621762740183791,-0.04848190158193555,0.08229612679348139,False
+rolling,12.0,delta,final system,CatBoost RAD-C,Specificity,0.0004765841762828238,-0.0011120020308793,0.002149161439234687,False
+rolling,12.0,delta,final system,CatBoost RAD-C,PPV,0.026795977011494165,-0.07101349579470984,0.11839901037649017,False
+rolling,12.0,delta,final system,CatBoost RAD-C,NPV,0.0004756605901971023,-0.00084023031634195,0.0017510433242486467,False
+rolling,12.0,delta,final system,CatBoost RAD-C,F1,0.01950741063644279,-0.048882261160886044,0.08601172384681646,False
+rolling,12.0,delta,final system,CatBoost RAD-C,MCC,0.02094853865226587,-0.04734363353179318,0.08611597920538977,False
+rolling,12.0,delta,final system,RealMLP RAD-C,AUROC,0.0979144386557168,0.0642436258532145,0.13715653360325075,False
+rolling,12.0,delta,final system,RealMLP RAD-C,AUPRC,0.1881462281484289,0.12061704132218701,0.25057181135428586,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Brier,-0.00403659412800123,-0.005262694782393907,-0.0027047834808512595,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Sens@Spec90,0.17360797827903085,0.11619259592616246,0.23858549154937414,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Accuracy,0.004944028624018326,0.0026271532193461013,0.0072465044863506715,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Balanced acc.,0.047458002484889183,0.015157274404731627,0.07839827240059531,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Sensitivity,0.09234753550543018,0.027948225964553163,0.15532949274411978,False
+rolling,12.0,delta,final system,RealMLP RAD-C,Specificity,0.0025684694643478556,0.0006567112788788438,0.004439491678375065,False
+rolling,12.0,delta,final system,RealMLP RAD-C,PPV,0.13095212518351407,0.040992784587903036,0.22750949274853802,False
+rolling,12.0,delta,final system,RealMLP RAD-C,NPV,0.002563206160087317,0.001242049534665443,0.003889519803062405,False
+rolling,12.0,delta,final system,RealMLP RAD-C,F1,0.10563579006776752,0.03734448102402893,0.16992842379442294,False
+rolling,12.0,delta,final system,RealMLP RAD-C,MCC,0.11114296271480822,0.04023473944405294,0.17602512809394621,False
+rolling,12.0,delta,final system,TabM RAD-C,AUROC,0.021188827964156776,0.0073794582135918085,0.0385157149562492,False
+rolling,12.0,delta,final system,TabM RAD-C,AUPRC,0.15178792961747245,0.10188921104756592,0.20513661061660735,False
+rolling,12.0,delta,final system,TabM RAD-C,Brier,-0.0035063960892623997,-0.004714890332419993,-0.002361445906589977,False
+rolling,12.0,delta,final system,TabM RAD-C,Sens@Spec90,0.08342209690893898,0.0038009203600801985,0.1533774146810473,False
+rolling,12.0,delta,final system,TabM RAD-C,Accuracy,0.003539835049719553,0.0015656493333370658,0.005520058760497481,False
+rolling,12.0,delta,final system,TabM RAD-C,Balanced acc.,0.032941108467564484,0.0034281127672274457,0.0665476968415488,False
+rolling,12.0,delta,final system,TabM RAD-C,Sensitivity,0.06403613199665825,0.004817036839166684,0.13103954915130211,False
+rolling,12.0,delta,final system,TabM RAD-C,Specificity,0.0018460849384704936,0.0002036594522985325,0.0034704875620109096,False
+rolling,12.0,delta,final system,TabM RAD-C,PPV,0.0940081507143623,0.004030309237526794,0.19030148373207648,False
+rolling,12.0,delta,final system,TabM RAD-C,NPV,0.0018422976838462501,0.0007923797221038697,0.0030512234235096163,False
+rolling,12.0,delta,final system,TabM RAD-C,F1,0.07401449485951583,0.010800723683217604,0.14284884137645976,False
+rolling,12.0,delta,final system,TabM RAD-C,MCC,0.07829500910718717,0.015507372965659148,0.14812130534861126,False
+rolling,12.0,delta,final system,TabICL RAD-C,AUROC,0.033655099615896855,0.01222668811709085,0.06246872336951543,False
+rolling,12.0,delta,final system,TabICL RAD-C,AUPRC,0.08823750572927436,0.05083982784471878,0.13281388899634144,False
+rolling,12.0,delta,final system,TabICL RAD-C,Brier,-0.00174245143906376,-0.0025349049576743735,-0.0009276330267697721,False
+rolling,12.0,delta,final system,TabICL RAD-C,Sens@Spec90,0.06287071846282366,0.011996837988928064,0.13076337428507012,False
+rolling,12.0,delta,final system,TabICL RAD-C,Accuracy,0.002214125882750162,0.00021025233968198227,0.004258383429883117,False
+rolling,12.0,delta,final system,TabICL RAD-C,Balanced acc.,0.02235231020176498,-0.009190852072365483,0.05436811980365694,False
+rolling,12.0,delta,final system,TabICL RAD-C,Sensitivity,0.043546365914786944,-0.01983195194493042,0.10728299337595512,False
+rolling,12.0,delta,final system,TabICL RAD-C,Specificity,0.0011582544887428492,-0.00044313982621568826,0.002708683775813819,False
+rolling,12.0,delta,final system,TabICL RAD-C,PPV,0.0708333333333333,0.003182864096024693,0.14375549627321185,False
+rolling,12.0,delta,final system,TabICL RAD-C,NPV,0.0011550701616493964,-0.0003026640487363063,0.002482996696877329,False
+rolling,12.0,delta,final system,TabICL RAD-C,F1,0.05252833478639929,-0.00482533447494435,0.1132740494737071,False
+rolling,12.0,delta,final system,TabICL RAD-C,MCC,0.05594743362570703,-0.0009184040270419857,0.11550123021188201,False
