@@ -9,7 +9,7 @@ Chạy trên máy: `pip install -r requirements.txt` rồi `streamlit run app.py
 
 1. Vào https://share.streamlit.io, đăng nhập bằng GitHub.
 2. **Create app → Deploy a public app from GitHub**:
-   - Repository: `ndthong2411/seqcvd-t2-app`, Branch: `main`, Main file path: `app.py`
+   - Repository: `ndthong2411/demo_heart`, Branch: `main`, Main file path: `app.py`
    - App URL: chọn tên, ví dụ `seqcvd-t2`
    - Advanced settings → Python version: **3.11**
 3. Bấm **Deploy**. Lần đầu cài thư viện mất khoảng 2–4 phút.
