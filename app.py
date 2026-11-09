@@ -13,6 +13,8 @@ inject_css()
 # Phím ← → (hoặc PageUp / PageDown) để chuyển trang chiếu.
 # Trên Streamlit Cloud app nằm trong một khung của trang bọc ngoài, nên khi trang bọc giữ focus thì phím không tới
 # document của app: gắn thêm bộ nghe vào mọi khung cha cùng origin, còn nút luôn tìm trong document của app.
+# Khung nhỏ này bị dựng lại khi đổi trang và bộ nghe của khung cũ chết theo, nên mỗi lần chạy phải thay bộ nghe cũ
+# bằng bộ nghe mới (không dùng cờ "đã gắn").
 KEYS = """<!doctype html><html><body><script>
 const app = window.parent.document;
 function onKey(e) {
@@ -29,7 +31,9 @@ let w = window.parent;
 while (true) {
   try {
     const d = w.document;
-    if (!d._seqcvdKeys) { d._seqcvdKeys = true; d.addEventListener('keydown', onKey); }
+    if (typeof d._seqcvdKeys === 'function') d.removeEventListener('keydown', d._seqcvdKeys);
+    d._seqcvdKeys = onKey;
+    d.addEventListener('keydown', onKey);
   } catch (err) { break; }
   if (w === w.parent) break;
   w = w.parent;
@@ -90,10 +94,11 @@ def presentation():
         st.markdown(notes)
 
     a, m, b = st.columns([1, 4, 1])
-    a.button("← Trước", on_click=go_to, args=(i - 1,), disabled=i == 0, width="stretch")
+    # Tính theo trang hiện tại lúc bấm (không theo i của lần vẽ trước) để bấm dồn không bị lùi/đứng sai trang.
+    a.button("← Trước", on_click=lambda: go_to(st.session_state.slide - 1), disabled=i == 0, width="stretch")
     m.markdown(f'<div style="text-align:center;color:#7a7f8a;padding-top:.45rem">{i + 1} / {len(SLIDES)} · {title} '
                f'· dùng phím ← → để chuyển trang</div>', unsafe_allow_html=True)
-    b.button("Tiếp →", on_click=go_to, args=(i + 1,), disabled=i == len(SLIDES) - 1, width="stretch",
+    b.button("Tiếp →", on_click=lambda: go_to(st.session_state.slide + 1), disabled=i == len(SLIDES) - 1, width="stretch",
              type="primary")
     st.iframe(KEYS, height=1)
 
