@@ -3,6 +3,15 @@ import streamlit as st
 
 st.set_page_config(page_title="SeqCVD", page_icon="🫀", layout="wide", initial_sidebar_state="collapsed")
 
+# Streamlit Cloud kéo code mới vào lúc app đang chạy nhưng giữ module cũ trong bộ nhớ (ImportError kiểu
+# "cannot import name 'lang' from 'common'"): nạp lại module của app, theo thứ tự phụ thuộc, trước khi import.
+import importlib  # noqa: E402
+import sys  # noqa: E402
+
+for _m in ("common", "slides", "slides_en", "results"):
+    if _m in sys.modules:
+        importlib.reload(sys.modules[_m])
+
 from common import html, inject_css, lang, lang_toggle, tr  # noqa: E402
 import results  # noqa: E402
 import slides  # noqa: E402
