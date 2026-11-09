@@ -1,4 +1,6 @@
 """Trang kết quả: bảng đủ chỉ số, xếp hạng, chênh lệch có CI, từng mã."""
+import base64
+
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -114,8 +116,11 @@ def page():
         html('<div class="note">Ô xanh lá là tốt nhất trong cột (Brier: thấp nhất). '
              'Các chỉ số cần ngưỡng (Accuracy tới MCC) dùng chung quy tắc: số ca bị báo động bằng tỉ lệ ca dương trên '
              'validation. Accuracy của mọi phương pháp đều sát nhau vì ca dương chỉ khoảng 5%.</div>')
-        st.download_button("Tải bảng (CSV)", df.to_csv().encode("utf-8-sig"),
-                           file_name=f"{task}_{ev}{'' if tau is None else f'_{tau:.0f}h'}_metrics.csv")
+        # Link data: thay cho st.download_button (tệp tạm /media/... có lúc hỏng trên Streamlit Cloud).
+        fname = f"{task}_{ev}{'' if tau is None else f'_{tau:.0f}h'}_metrics.csv"
+        b64 = base64.b64encode(df.to_csv().encode("utf-8-sig")).decode()
+        html(f'<div class="dl-row"><a class="dl-btn" href="data:text/csv;base64,{b64}" download="{fname}">'
+             'Tải bảng (CSV)</a></div>')
 
     with tab2:
         l, r = st.columns([1, 1])

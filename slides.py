@@ -1,4 +1,5 @@
 """Các trang chiếu. Mỗi trang là một hàm vẽ nội dung + ghi chú để nói."""
+import base64
 from pathlib import Path
 
 import plotly.graph_objects as go
@@ -393,19 +394,29 @@ Em không giả định chuỗi chắc chắn thắng. Đó là câu hỏi cần
 
 
 # =============================================================== 7. Toàn cảnh kiến trúc
-ARCH = Path(__file__).resolve().parent / "kien_truc"
+# Ảnh và file tải nằm ở static/ (bản sao từ kien_truc/, cần server.enableStaticServing). Không dùng st.image /
+# st.download_button: trên Streamlit Cloud tệp tạm /media/... của chúng có lúc không tải được (ảnh hiện chữ "0").
+STATIC = Path(__file__).resolve().parent / "static"
+
+
+@st.cache_resource
+def arch_data_uri():
+    return "data:image/png;base64," + base64.b64encode((STATIC / "seqcvd_architecture_vi.png").read_bytes()).decode()
 
 
 def s_overview():
     head("Mô hình · toàn cảnh", "Kiến trúc SeqCVD: từ lịch sử bệnh nhân tới 7 xác suất",
          "Đọc từ trái sang phải: sự kiện → nhúng → encoder SeqLab → học trước (①) và tinh chỉnh cho T2 (②). "
          "Hàng dưới là hệ cuối: tổ hợp 21 mạng SeqLab ghép với HGB.")
-    st.image(str(ARCH / "seqcvd_architecture_vi.png"), width="stretch")
-    a, b, c, _ = st.columns([1, 1, 1, 3])
-    for col, (lab, f, mime) in zip((a, b, c), [("Tải PNG (tiếng Việt)", "seqcvd_architecture_vi.png", "image/png"),
-                                               ("Tải PNG (English)", "seqcvd_architecture_en.png", "image/png"),
-                                               ("Tải PDF (English)", "seqcvd_architecture_en.pdf", "application/pdf")]):
-        col.download_button(lab, (ARCH / f).read_bytes(), file_name=f, mime=mime, width="stretch")
+    # Ảnh nhúng thẳng vào trang nên không phụ thuộc đường tải nào.
+    html(f'<img src="{arch_data_uri()}" alt="Sơ đồ kiến trúc SeqCVD" '
+         'style="width:100%;height:auto;display:block;border-radius:8px;background:#fff">')
+    links = "".join(
+        f'<a class="dl-btn" href="app/static/{f}" download="{f}" target="_blank">{lab}</a>'
+        for lab, f in [("Tải PNG (tiếng Việt)", "seqcvd_architecture_vi.png"),
+                       ("Tải PNG (English)", "seqcvd_architecture_en.png"),
+                       ("Tải PDF (English)", "seqcvd_architecture_en.pdf")])
+    html(f'<div class="dl-row">{links}</div>')
 
 
 N_OVERVIEW = """Đây là toàn cảnh, em đi theo hình từ trái sang phải.

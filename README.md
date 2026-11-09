@@ -19,3 +19,9 @@ Repo private thì app cũng private: vào **Share** của app để mời ngư�
 ## Cập nhật
 
 Sửa ở bản gốc trong `phd_heart`, chép các file thay đổi sang đây, `git commit` và `git push`. Streamlit Cloud tự cập nhật.
+
+## Ghi chú kỹ thuật
+
+- Ảnh kiến trúc được nhúng thẳng vào trang (base64), file tải nằm ở `static/` (`enableStaticServing = true`).
+  Không dùng `st.image` / `st.download_button` vì tệp tạm `/media/...` của chúng có lúc không tải được trên Streamlit Cloud.
+- Phím ← → được gắn lại mỗi lần vẽ trang, nghe cả ở trang bọc ngoài của Streamlit Cloud.

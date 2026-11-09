@@ -156,6 +156,10 @@ h1,h2,h3{color:var(--ink);letter-spacing:-0.01em;}
 .kicker{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin-bottom:.2rem;}
 .slide-title{font-size:2.05rem;font-weight:800;line-height:1.2;color:var(--ink);margin:0 0 .45rem 0;}
 .lead{font-size:1.12rem;color:var(--ink2);line-height:1.55;margin-bottom:1.1rem;max-width:62rem;}
+.dl-row{display:flex;flex-wrap:wrap;gap:.6rem;margin:.6rem 0 .2rem;}
+.dl-row a.dl-btn{display:inline-block;padding:.45rem 1rem;border:1px solid #d3d7de;border-radius:8px;background:#fff;
+  color:#16181d !important;text-decoration:none !important;font-size:.9rem;}
+.dl-row a.dl-btn:hover{border-color:#2a78d6;color:#2a78d6 !important;}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.05rem 1.2rem;height:100%;
 box-shadow:0 1px 2px rgba(16,24,40,.04);}
 .card h4{margin:0 0 .45rem 0;font-size:1.02rem;font-weight:700;color:var(--ink);}
